@@ -57,8 +57,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\testScript.cs" />
+    <Compile Include="Assets\GestureRecognizer\Scripts\Recognizer.cs" />
+    <Compile Include="Assets\GestureRecognizer\Example\GestureOptions.cs" />
+    <Compile Include="Assets\GestureRecognizer\Example\ExampleGestureHandler.cs" />
+    <Compile Include="Assets\GestureRecognizer\Scripts\GesturePattern.cs" />
+    <Compile Include="Assets\GestureRecognizer\Scripts\UILineRenderer.cs" />
+    <Compile Include="Assets\GestureRecognizer\Scripts\DrawDetector.cs" />
+    <Compile Include="Assets\GestureRecognizer\Scripts\GesturePatternDraw.cs" />
+    <Compile Include="Assets\GestureRecognizer\Scripts\GestureData.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\GestureRecognizer\UPDATE GUIDE.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
