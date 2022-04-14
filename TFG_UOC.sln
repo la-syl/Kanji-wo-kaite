@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualButtonsScripts", "VirtualButtonsScripts.csproj", "{CB737838-C706-492C-7049-6D7113D630A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{E13659D3-F0DA-D7AA-BDC5-8D8BAD922F66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{24374438-40C2-DF92-D25B-9826BA0817E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB737838-C706-492C-7049-6D7113D630A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB737838-C706-492C-7049-6D7113D630A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB737838-C706-492C-7049-6D7113D630A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB737838-C706-492C-7049-6D7113D630A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13659D3-F0DA-D7AA-BDC5-8D8BAD922F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13659D3-F0DA-D7AA-BDC5-8D8BAD922F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13659D3-F0DA-D7AA-BDC5-8D8BAD922F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13659D3-F0DA-D7AA-BDC5-8D8BAD922F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24374438-40C2-DF92-D25B-9826BA0817E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24374438-40C2-DF92-D25B-9826BA0817E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24374438-40C2-DF92-D25B-9826BA0817E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24374438-40C2-DF92-D25B-9826BA0817E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
