@@ -774,6 +774,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{0B2D0A3C-D32C-CF4E-A689-D920B84100F6}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="VirtualButtonsScripts.csproj">
       <Project>{CB737838-C706-492C-7049-6D7113D630A3}</Project>
       <Name>VirtualButtonsScripts</Name>
