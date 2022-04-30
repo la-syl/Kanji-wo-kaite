@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1596244698254023994}
   - component: {fileID: 1596244698254023995}
   - component: {fileID: 1596244698254023988}
-  - component: {fileID: 1596244698254023989}
   - component: {fileID: 1596244698254023990}
   - component: {fileID: 1596244698254023991}
   m_Layer: 5
@@ -104,7 +103,7 @@ MonoBehaviour:
   OnRecognize:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1596244698254023989}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: 
         m_MethodName: OnRecognize
         m_Mode: 0
@@ -116,20 +115,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1596244698254023989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1596244698254023985}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d281f7ec27afa064d83584f0a2dc659f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textResult: {fileID: 1596244698863043165}
-  referenceRoot: {fileID: 0}
 --- !u!114 &1596244698254023990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,9 +220,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Draw on Screen
-
-    (fixed area)'
+  m_Text: '?'
 --- !u!1 &1596244699979334266
 GameObject:
   m_ObjectHideFlags: 0

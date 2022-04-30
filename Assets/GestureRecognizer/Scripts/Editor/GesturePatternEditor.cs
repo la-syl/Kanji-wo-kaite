@@ -275,12 +275,29 @@ namespace GestureRecognizer
             GUILayout.EndHorizontal();
 
             //----------------- line closed -----------------
-            /*
-            GUILayout.BeginHorizontal(GUILayout.Width(w));
+            
+            //Syl's edit: commented out original code
+            /*GUILayout.BeginHorizontal(GUILayout.Width(w));
+                var closedLineProp = gestures.GetArrayElementAtIndex(currentGestureIndex).FindPropertyRelative("closedLine");
+                if (gestures.GetArrayElementAtIndex(currentGestureIndex).FindPropertyRelative("points").arraySize >= 3)
+                {
+                    EditorGUILayout.PropertyField(closedLineProp);
+                }
+                else
+                {
+                    closedLineProp.boolValue = false;
+                    GUI.enabled = false;
+                    EditorGUILayout.PropertyField(closedLineProp);
+                    GUI.enabled = true;
+                }
+            GUILayout.EndHorizontal();*/
+
+            //Syl's edit: added a condition that checks for the existence of lines in the gesture before adding the closed line checkbox.
+            if (gestures.GetArrayElementAtIndex(currentGestureIndex) != null)
+            {
+                GUILayout.BeginHorizontal(GUILayout.Width(w));
 
                 var closedLineProp = gestures.GetArrayElementAtIndex(currentGestureIndex).FindPropertyRelative("closedLine");
-                //Debug.Log(gestures.GetArrayElementAtIndex(currentGestureIndex));
-
                 if (gestures.GetArrayElementAtIndex(currentGestureIndex).FindPropertyRelative("points").arraySize >= 3)
                 {
                     EditorGUILayout.PropertyField(closedLineProp);
@@ -293,7 +310,8 @@ namespace GestureRecognizer
                     GUI.enabled = true;
                 }
                 GUILayout.EndHorizontal();
-                */
+            }
+
             //----------------- draw background -----------------
 
             EditorGUILayout.Space();
