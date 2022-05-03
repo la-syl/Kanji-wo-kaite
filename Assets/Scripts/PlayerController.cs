@@ -9,11 +9,13 @@ public class PlayerController : MonoBehaviour
     private float movX;
     private float movY;
     public float speed = 10;
+    private Animator animator;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         //rb2d = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     private void OnMove(InputValue movementValue)
@@ -21,6 +23,18 @@ public class PlayerController : MonoBehaviour
         Vector2 movementVector = movementValue.Get<Vector2>();
         movX = movementVector.x;
         movY = movementVector.y;
+
+        if (movX != 0 || movY != 0)
+        {
+            animator.SetFloat("X", movX);
+            animator.SetFloat("Y", movY);
+
+            animator.SetBool("IsWalking", true);
+        }
+        else 
+        {
+            animator.SetBool("IsWalking", false);
+        }
     }
 
     private void OnInteract()
