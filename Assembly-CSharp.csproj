@@ -68,6 +68,8 @@
     <Compile Include="Assets\GestureRecognizer\Scripts\UILineRenderer.cs" />
     <Compile Include="Assets\Scripts\testScript.cs" />
     <Compile Include="Assets\NPCController.cs" />
+    <Compile Include="Assets\GestureRecognizer\Scripts\MyGestureHandler.cs" />
+    <Compile Include="Assets\GestureRecognizer\Example\GestureOptions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

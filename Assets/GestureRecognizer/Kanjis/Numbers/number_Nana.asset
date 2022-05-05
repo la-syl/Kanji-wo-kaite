@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ce0fdb4e39b5744abf0c061bd2a3e30, type: 3}
   m_Name: number_Nana
   m_EditorClassIdentifier: 
-  id: 
+  id: Nana
   points: []
   gesture:
     lines:
@@ -25,5 +25,5 @@ MonoBehaviour:
       - {x: 0.375, y: 0.25}
       - {x: 0.6875, y: 0.25}
       closedLine: 0
-  useLinesOrder: 0
-  useLinesDirections: 0
+  useLinesOrder: 1
+  useLinesDirections: 1
