@@ -58,23 +58,23 @@
   <ItemGroup>
     <Compile Include="Assets\GestureRecognizer\Scripts\GesturePatternDraw.cs" />
     <Compile Include="Assets\GestureRecognizer\Scripts\Recognizer.cs" />
+    <Compile Include="Assets\Simple Scroll-Snap\Examples\Example 3 (Slot Machine)\Scripts\SlotMachine.cs" />
     <Compile Include="Assets\GestureRecognizer\Scripts\DrawDetector.cs" />
+    <Compile Include="Assets\Simple Scroll-Snap\Examples\Example 6 (3D Shape Selection)\Scripts\Rotator.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\GestureRecognizer\Scripts\MyGestureHandler.cs" />
+    <Compile Include="Assets\Simple Scroll-Snap\Examples\_Common\Scripts\ExpandInformation.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Controls\PlayerControls.cs" />
     <Compile Include="Assets\GestureRecognizer\Scripts\GesturePattern.cs" />
     <Compile Include="Assets\GestureRecognizer\Example\GestureOptions.cs" />
     <Compile Include="Assets\Scripts\GestureHandler.cs" />
+    <Compile Include="Assets\Simple Scroll-Snap\Examples\Example 1 (macOS Finder)\Scripts\FileUI.cs" />
     <Compile Include="Assets\GestureRecognizer\Scripts\GestureData.cs" />
+    <Compile Include="Assets\Simple Scroll-Snap\Examples\Example 5 (Dynamic Content)\Scripts\DynamicContent.cs" />
     <Compile Include="Assets\GestureRecognizer\Scripts\UILineRenderer.cs" />
     <Compile Include="Assets\Scripts\testScript.cs" />
-    <Compile Include="Assets\NPCController.cs" />
-    <Compile Include="Assets\Simple Scroll-Snap\Examples\Example 6 (3D Shape Selection)\Scripts\Rotator.cs" />
-    <Compile Include="Assets\Simple Scroll-Snap\Examples\Example 1 (macOS Finder)\Scripts\FileUI.cs" />
-    <Compile Include="Assets\Simple Scroll-Snap\Examples\_Common\Scripts\ExpandInformation.cs" />
-    <Compile Include="Assets\Simple Scroll-Snap\Examples\Example 3 (Slot Machine)\Scripts\SlotMachine.cs" />
-    <Compile Include="Assets\Simple Scroll-Snap\Examples\Example 5 (Dynamic Content)\Scripts\DynamicContent.cs" />
+    <Compile Include="Assets\Scripts\NPCController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -671,9 +671,6 @@
     <Reference Include="Unity.2D.Tilemap.Extras">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
       <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
@@ -685,6 +682,9 @@
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
       <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
@@ -719,9 +719,6 @@
     <Reference Include="Unity.2D.Path.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="VSSettingsProvider">
-      <HintPath>Library\ScriptAssemblies\VSSettingsProvider.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
@@ -736,6 +733,9 @@
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="VSSettingsProvider">
+      <HintPath>Library\ScriptAssemblies\VSSettingsProvider.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
@@ -791,13 +791,17 @@
       <Project>{0B2D0A3C-D32C-CF4E-A689-D920B84100F6}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
-    <ProjectReference Include="VirtualButtonsScripts.csproj">
-      <Project>{CB737838-C706-492C-7049-6D7113D630A3}</Project>
-      <Name>VirtualButtonsScripts</Name>
+    <ProjectReference Include="SimpleInspectorAttributesEditor.csproj">
+      <Project>{BEF44109-AFAC-A0A7-A3B6-84554C57481C}</Project>
+      <Name>SimpleInspectorAttributesEditor</Name>
     </ProjectReference>
     <ProjectReference Include="SimpleInspectorAttributes.csproj">
       <Project>{B7D08DC4-DF91-3A5C-3321-A16FBEA2F3ED}</Project>
       <Name>SimpleInspectorAttributes</Name>
+    </ProjectReference>
+    <ProjectReference Include="VirtualButtonsScripts.csproj">
+      <Project>{CB737838-C706-492C-7049-6D7113D630A3}</Project>
+      <Name>VirtualButtonsScripts</Name>
     </ProjectReference>
     <ProjectReference Include="SimpleScrollSnapEditor.csproj">
       <Project>{59D1253F-6788-B622-0E58-13C04556A4D6}</Project>
@@ -811,17 +815,13 @@
       <Project>{28FCDFA6-15CA-CF50-DAA7-11A8D7ADE621}</Project>
       <Name>UtilitiesEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="CopyrightNoticeEditor.csproj">
-      <Project>{4AAB4E8F-C684-BA8D-43DE-FF85AF550B72}</Project>
-      <Name>CopyrightNoticeEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="SimpleInspectorAttributesEditor.csproj">
-      <Project>{BEF44109-AFAC-A0A7-A3B6-84554C57481C}</Project>
-      <Name>SimpleInspectorAttributesEditor</Name>
-    </ProjectReference>
     <ProjectReference Include="SimpleScrollSnap.csproj">
       <Project>{9226292D-44DF-56A7-D113-A7870D59154F}</Project>
       <Name>SimpleScrollSnap</Name>
+    </ProjectReference>
+    <ProjectReference Include="CopyrightNoticeEditor.csproj">
+      <Project>{4AAB4E8F-C684-BA8D-43DE-FF85AF550B72}</Project>
+      <Name>CopyrightNoticeEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
