@@ -10,7 +10,7 @@ public class MainMenu : MonoBehaviour
 //Start a new game
     public void NewGame()
     {
-        SceneManager.LoadScene("Scenes/TitleCap1");
+        SceneManager.LoadScene("Scenes/House_Mayor");
     }
 
 //Continue game
