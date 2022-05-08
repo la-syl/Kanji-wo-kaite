@@ -56,15 +56,12 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Controls\VirtualButtonsForUnity\Examples\Scripts\PlayerActionsExample.cs" />
-    <Compile Include="Assets\Controls\VirtualButtonsForUnity\Examples\Scripts\PlayerControllerExample.cs" />
     <Compile Include="Assets\Controls\VirtualButtonsForUnity\Scripts\VirtualJoystick.cs" />
     <Compile Include="Assets\Controls\VirtualButtonsForUnity\Scripts\VirtualJoystickFloating.cs" />
     <Compile Include="Assets\Controls\VirtualButtonsForUnity\Scripts\VirtualDPad.cs" />
     <Compile Include="Assets\Controls\VirtualButtonsForUnity\Scripts\VirtualButton.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Controls\VirtualButtonsForUnity\Examples\Scripts\VirtualButtonsExamplesScripts.asmref" />
     <None Include="Assets\Controls\VirtualButtonsForUnity\Scripts\VirtualButtonsScripts.asmdef" />
   </ItemGroup>
   <ItemGroup>

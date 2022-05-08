@@ -194,8 +194,8 @@
     <Compile Include="Assets\Plugins\Pixel Crushers\Common\Scripts\Editor\Message System\MessageEventsEditor.cs" />
     <Compile Include="Assets\Plugins\Pixel Crushers\Dialogue System\Scripts\Editor\Inspectors\Triggers\Legacy\SetActiveOnDialogueEventEditor.cs" />
     <Compile Include="Assets\Plugins\Pixel Crushers\Dialogue System\Scripts\Editor\Dialogue Editor\Nodes\DialogueEditorWindowConversationNodeEditorAutoArrange.cs" />
-    <Compile Include="Assets\Plugins\Pixel Crushers\Dialogue System\Scripts\Editor\Inspectors\Triggers\QuestPicker.cs" />
     <Compile Include="Assets\Plugins\Pixel Crushers\Common\Scripts\Editor\Misc\AssetUtility.cs" />
+    <Compile Include="Assets\Plugins\Pixel Crushers\Dialogue System\Scripts\Editor\Inspectors\Triggers\QuestPicker.cs" />
     <Compile Include="Assets\Plugins\Pixel Crushers\Dialogue System\Scripts\Editor\Options\Timeline\StartConversationBehaviourDrawer.cs" />
     <Compile Include="Assets\Plugins\Pixel Crushers\Dialogue System\Scripts\Editor\Tools\Importers\Aurora\Dlg.cs" />
     <Compile Include="Assets\Plugins\Pixel Crushers\Dialogue System\Scripts\Editor\Inspectors\Triggers\ActorPopupDrawer.cs" />
@@ -883,8 +883,8 @@
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+    <Reference Include="Unity.2D.Tilemap.Extras">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
       <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
@@ -897,6 +897,9 @@
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
       <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
@@ -931,9 +934,6 @@
     <Reference Include="Unity.2D.Path.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="VSSettingsProvider">
-      <HintPath>Library\ScriptAssemblies\VSSettingsProvider.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
@@ -949,8 +949,14 @@
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="VSSettingsProvider">
+      <HintPath>Library\ScriptAssemblies\VSSettingsProvider.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
       <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
@@ -1000,9 +1006,37 @@
       <Project>{0B2D0A3C-D32C-CF4E-A689-D920B84100F6}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
+    <ProjectReference Include="SimpleInspectorAttributesEditor.csproj">
+      <Project>{BEF44109-AFAC-A0A7-A3B6-84554C57481C}</Project>
+      <Name>SimpleInspectorAttributesEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="SimpleInspectorAttributes.csproj">
+      <Project>{B7D08DC4-DF91-3A5C-3321-A16FBEA2F3ED}</Project>
+      <Name>SimpleInspectorAttributes</Name>
+    </ProjectReference>
     <ProjectReference Include="VirtualButtonsScripts.csproj">
       <Project>{CB737838-C706-492C-7049-6D7113D630A3}</Project>
       <Name>VirtualButtonsScripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="SimpleScrollSnapEditor.csproj">
+      <Project>{59D1253F-6788-B622-0E58-13C04556A4D6}</Project>
+      <Name>SimpleScrollSnapEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Utilities.csproj">
+      <Project>{F16FFB5C-1712-A572-5552-7681F118EA26}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="UtilitiesEditor.csproj">
+      <Project>{28FCDFA6-15CA-CF50-DAA7-11A8D7ADE621}</Project>
+      <Name>UtilitiesEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="SimpleScrollSnap.csproj">
+      <Project>{9226292D-44DF-56A7-D113-A7870D59154F}</Project>
+      <Name>SimpleScrollSnap</Name>
+    </ProjectReference>
+    <ProjectReference Include="CopyrightNoticeEditor.csproj">
+      <Project>{4AAB4E8F-C684-BA8D-43DE-FF85AF550B72}</Project>
+      <Name>CopyrightNoticeEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
