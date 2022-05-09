@@ -30,7 +30,6 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("Y", movY);
 
             animator.SetBool("IsWalking", true);
-            Debug.Log(Time.timeScale);
         }
         else 
         {
@@ -53,6 +52,5 @@ public class PlayerController : MonoBehaviour
     {
         Vector2 movement = new Vector2(movX, movY);
         transform.Translate(movement * speed * Time.deltaTime);
-        Debug.Log("PlayerMove()");
     }
 }

@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/House_Mayor.unity
     guid: 8817b96cfa7823448ad102ddd9e2e179
+  - enabled: 1
+    path: Assets/Scenes/Village.unity
+    guid: 5a176560191985c4db12f91c469a0573
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: e297fa8e1d991bb4fa835ddcccf499ea, type: 2}

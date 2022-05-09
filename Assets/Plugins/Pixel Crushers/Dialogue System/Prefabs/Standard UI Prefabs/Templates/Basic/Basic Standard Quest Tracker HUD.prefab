@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 22441426}
   - component: {fileID: 22224858}
   - component: {fileID: 11400498}
+  - component: {fileID: 4129869771028544972}
   m_Layer: 5
   m_Name: Basic Standard Quest Tracker HUD
   m_TagString: Untagged
@@ -150,7 +151,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -183,6 +184,20 @@ MonoBehaviour:
   showCompletedEntryText: 0
   questDescriptionSource: 0
   visibleOnStart: 1
+--- !u!114 &4129869771028544972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AspectMode: 3
+  m_AspectRatio: 0.5625
 --- !u!1 &140792
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,7 +354,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 180}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &11461846
 MonoBehaviour:
@@ -468,6 +483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 22495766}
   - component: {fileID: 11463298}
+  - component: {fileID: 9106599637914314991}
   m_Layer: 5
   m_Name: Vertical Group
   m_TagString: Untagged
@@ -493,7 +509,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 430.6043, y: 0}
+  m_SizeDelta: {x: 176.3016, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &11463298
 MonoBehaviour:
@@ -508,16 +524,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 0
+    m_Left: 5
     m_Right: 0
-    m_Top: 0
+    m_Top: 10
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 8
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
-  m_ChildControlHeight: 1
+  m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &9106599637914314991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: 300
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
