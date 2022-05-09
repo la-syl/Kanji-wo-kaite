@@ -127,7 +127,6 @@ GameObject:
   - component: {fileID: 22441426}
   - component: {fileID: 22224858}
   - component: {fileID: 11400498}
-  - component: {fileID: 4129869771028544972}
   m_Layer: 5
   m_Name: Basic Standard Quest Tracker HUD
   m_TagString: Untagged
@@ -177,27 +176,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerPrefsToggleKey: QuestTracker
   container: {fileID: 22495766}
-  showContainerIfEmpty: 1
+  showContainerIfEmpty: 0
   questTrackTemplate: {fileID: 11482462}
   showActiveQuests: 1
   showCompletedQuests: 0
   showCompletedEntryText: 0
   questDescriptionSource: 0
   visibleOnStart: 1
---- !u!114 &4129869771028544972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 121952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AspectMode: 3
-  m_AspectRatio: 0.5625
 --- !u!1 &140792
 GameObject:
   m_ObjectHideFlags: 0
@@ -324,7 +309,6 @@ GameObject:
   m_Component:
   - component: {fileID: 22476200}
   - component: {fileID: 11461846}
-  - component: {fileID: 11439096}
   - component: {fileID: 22253680}
   - component: {fileID: 11452594}
   - component: {fileID: 11482462}
@@ -354,8 +338,8 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 180}
-  m_Pivot: {x: 0, y: 1}
+  m_SizeDelta: {x: 0, y: 131.0047}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &11461846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -371,8 +355,8 @@ MonoBehaviour:
   m_Padding:
     m_Left: 20
     m_Right: 20
-    m_Top: 80
-    m_Bottom: 4
+    m_Top: 30
+    m_Bottom: 8
   m_ChildAlignment: 1
   m_Spacing: 0
   m_ChildForceExpandWidth: 0
@@ -382,26 +366,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &11439096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: -1
-  m_MinHeight: -1
-  m_PreferredWidth: -1
-  m_PreferredHeight: -1
-  m_FlexibleWidth: 1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
 --- !u!222 &22253680
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -432,14 +396,14 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: b9d57a4161b87ac43844cd039a58475f, type: 3}
   m_Type: 1
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 3
 --- !u!114 &11482462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -484,6 +448,7 @@ GameObject:
   - component: {fileID: 22495766}
   - component: {fileID: 11463298}
   - component: {fileID: 9106599637914314991}
+  - component: {fileID: 256515900}
   m_Layer: 5
   m_Name: Vertical Group
   m_TagString: Untagged
@@ -509,7 +474,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 176.3016, y: 0}
+  m_SizeDelta: {x: 150, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &11463298
 MonoBehaviour:
@@ -550,10 +515,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
-  m_MinWidth: -1
+  m_MinWidth: 150
   m_MinHeight: -1
-  m_PreferredWidth: 300
+  m_PreferredWidth: 200
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &256515900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197518}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 1
+  m_VerticalFit: 0
