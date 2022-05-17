@@ -1834,6 +1834,7 @@ m_PackageAssets:
         - 1.7.5
         - 1.7.6
         - 1.7.7
+        - 1.7.8
         - 1.8.0-pre.1
         compatible: []
         verified: 
