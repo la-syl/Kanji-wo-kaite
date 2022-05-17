@@ -829,6 +829,8 @@
     <Compile Include="Assets\Plugins\Pixel Crushers\Dialogue System\Scripts\MVC\Model\Data\Field.cs" />
     <Compile Include="Assets\Plugins\Pixel Crushers\Dialogue System\Scripts\Utility\ConversationLogger.cs" />
     <Compile Include="Assets\Plugins\Pixel Crushers\Dialogue System\Scripts\MVC\Model\Data\Utility\Template.cs" />
+    <Compile Include="Assets\Plugins\Pixel Crushers\Dialogue System\Demo\Scenes\New Input System\DemoInputControls.cs" />
+    <Compile Include="Assets\Plugins\Pixel Crushers\Dialogue System\Demo\Scenes\New Input System\DemoInputRegistration.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Pixel Crushers\Dialogue System\Prefabs\Art\Fonts\Orbitron\SIL Open Font License.txt" />
@@ -837,6 +839,8 @@
     <None Include="Assets\Plugins\Pixel Crushers\Dialogue System\Prefabs\Art\Textures\Circle\_README.txt" />
     <None Include="Assets\Plugins\Pixel Crushers\Dialogue System\Prefabs\Art\Textures\UnityUI\_README.txt" />
     <None Include="Assets\Plugins\Pixel Crushers\Common\_README.txt" />
+    <None Include="Assets\Plugins\Pixel Crushers\Dialogue System\Demo\Scenes\New Input System\_New_Input_System_Setup.txt" />
+    <None Include="Assets\Plugins\Pixel Crushers\Dialogue System\Demo\_README.txt" />
     <None Include="Assets\Plugins\Pixel Crushers\Dialogue System\Templates\Link\link_asmdef.xml" />
     <None Include="Assets\Plugins\Pixel Crushers\Dialogue System\Prefabs\Art\Textures\Shared Textures\_README.txt" />
     <None Include="Assets\Plugins\Pixel Crushers\Dialogue System\Templates\Link\_README.txt" />
@@ -846,6 +850,7 @@
     <None Include="Assets\Plugins\Pixel Crushers\Dialogue System\Scripts\UI\Legacy\_README.txt" />
     <None Include="Assets\Plugins\Pixel Crushers\Dialogue System\Templates\Link\link.xml" />
     <None Include="Assets\Plugins\Pixel Crushers\Dialogue System\Scripts\_README.txt" />
+    <None Include="Assets\Plugins\Pixel Crushers\Dialogue System\Demo\Art\Sounds\_README.txt" />
     <None Include="Assets\Plugins\Pixel Crushers\Dialogue System\_README.txt" />
     <None Include="Assets\Plugins\Pixel Crushers\Dialogue System\Third Party Support\_README.txt" />
     <None Include="Assets\Plugins\Pixel Crushers\Dialogue System\Scripts\Lua\Lua Interpreter\_README.txt" />
