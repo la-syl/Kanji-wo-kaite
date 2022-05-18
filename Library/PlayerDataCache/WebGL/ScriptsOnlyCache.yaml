@@ -21,39 +21,25 @@ ScriptsOnlyBuild:
     - PixelCrushers.DialogueSystem.Wrappers.DialogueDatabase
     - PixelCrushers.DialogueSystem.Wrappers.DialogueSystemController
     - PixelCrushers.DialogueSystem.Wrappers.DialogueSystemEvents
-    - PixelCrushers.DialogueSystem.Wrappers.DialogueSystemSaver
     - PixelCrushers.DialogueSystem.Wrappers.DialogueSystemTrigger
     - PixelCrushers.DialogueSystem.Wrappers.ProximitySelector
     - PixelCrushers.DialogueSystem.Wrappers.StandardBarkUI
     - PixelCrushers.DialogueSystem.Wrappers.StandardDialogueUI
-    - PixelCrushers.DialogueSystem.Wrappers.StandardUIButtonTemplate
     - PixelCrushers.DialogueSystem.Wrappers.StandardUIContinueButtonFastForward
-    - PixelCrushers.DialogueSystem.Wrappers.StandardUIFoldoutTemplate
     - PixelCrushers.DialogueSystem.Wrappers.StandardUIInputField
     - PixelCrushers.DialogueSystem.Wrappers.StandardUIMenuPanel
-    - PixelCrushers.DialogueSystem.Wrappers.StandardUIQuestLogWindow
-    - PixelCrushers.DialogueSystem.Wrappers.StandardUIQuestTitleButtonTemplate
-    - PixelCrushers.DialogueSystem.Wrappers.StandardUIQuestTrackTemplate
-    - PixelCrushers.DialogueSystem.Wrappers.StandardUIQuestTracker
     - PixelCrushers.DialogueSystem.Wrappers.StandardUIResponseButton
     - PixelCrushers.DialogueSystem.Wrappers.StandardUISelectorElements
     - PixelCrushers.DialogueSystem.Wrappers.StandardUISubtitlePanel
-    - PixelCrushers.DialogueSystem.Wrappers.StandardUITextTemplate
-    - PixelCrushers.DialogueSystem.Wrappers.StandardUIToggleTemplate
     - PixelCrushers.DialogueSystem.Wrappers.UIButtonKeyTrigger
     - PixelCrushers.DialogueSystem.Wrappers.UnityUITypewriterEffect
     - PixelCrushers.DialogueSystem.Wrappers.Usable
     - PixelCrushers.Wrappers.AlwaysFaceCamera
     - PixelCrushers.Wrappers.InputDeviceManager
     - PixelCrushers.Wrappers.InstantiatePrefabs
-    - PixelCrushers.Wrappers.JsonDataSerializer
-    - PixelCrushers.Wrappers.PlayerPrefsSavedGameDataStorer
     - PixelCrushers.Wrappers.PositionSaver
-    - PixelCrushers.Wrappers.SaveSystem
     - PixelCrushers.Wrappers.SaveSystemMethods
     - PixelCrushers.Wrappers.ScenePortal
-    - PixelCrushers.Wrappers.StandardSceneTransitionManager
-    - PixelCrushers.Wrappers.UIButtonKeyTrigger
     - PixelCrushers.Wrappers.UIPanel
     - PixelCrushers.Wrappers.UIScrollbarEnabler
     Assembly-CSharp.dll:
@@ -65,6 +51,7 @@ ScriptsOnlyBuild:
     - MyGestureHandler
     - NPCController
     - PlayerController
+    - addKanjiToMenu
     SimpleScrollSnap.dll:
     - DanielLochner.Assets.SimpleScrollSnap.SimpleScrollSnap
     Unity.2D.Animation.Editor.dll:
@@ -76,7 +63,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Sprites.SpriteEditorWindow
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
-    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -100,6 +86,7 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputActionReference
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
+    - UnityEngine.InputSystem.OnScreen.OnScreenStick
     - UnityEngine.InputSystem.PlayerInput
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
@@ -114,10 +101,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -130,6 +115,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
     - UnityEngine.UI.InputField
@@ -138,14 +124,11 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Outline
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.ScrollRect
-    - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.ToggleGroup
     - UnityEngine.UI.VerticalLayoutGroup
-    VirtualButtonsScripts.dll:
-    - VirtualJoystick
   sceneClasses:
     Assets/Scenes/House_Mayor.unity:
     - Class: 1
@@ -170,6 +153,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -189,147 +174,121 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1510}
     - Class: 114
-      Script: {instanceID: 1512}
-    - Class: 114
       Script: {instanceID: 1514}
     - Class: 114
-      Script: {instanceID: 1518}
+      Script: {instanceID: 1574}
     - Class: 114
-      Script: {instanceID: 1578}
+      Script: {instanceID: 1878}
     - Class: 114
-      Script: {instanceID: 1746}
+      Script: {instanceID: 2664}
     - Class: 114
-      Script: {instanceID: 1758}
+      Script: {instanceID: 2684}
     - Class: 114
-      Script: {instanceID: 1882}
+      Script: {instanceID: 2754}
     - Class: 114
-      Script: {instanceID: 2668}
+      Script: {instanceID: 2804}
     - Class: 114
-      Script: {instanceID: 2688}
+      Script: {instanceID: 3170}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 3262}
     - Class: 114
-      Script: {instanceID: 2808}
+      Script: {instanceID: 3448}
     - Class: 114
-      Script: {instanceID: 3176}
+      Script: {instanceID: 3452}
     - Class: 114
-      Script: {instanceID: 3268}
+      Script: {instanceID: 3556}
     - Class: 114
-      Script: {instanceID: 3454}
+      Script: {instanceID: 3676}
     - Class: 114
-      Script: {instanceID: 3458}
+      Script: {instanceID: 3886}
     - Class: 114
-      Script: {instanceID: 3564}
+      Script: {instanceID: 3916}
     - Class: 114
-      Script: {instanceID: 3684}
+      Script: {instanceID: 3948}
     - Class: 114
-      Script: {instanceID: 3894}
+      Script: {instanceID: 4114}
     - Class: 114
-      Script: {instanceID: 3954}
+      Script: {instanceID: 4200}
     - Class: 114
-      Script: {instanceID: 4048}
+      Script: {instanceID: 4298}
     - Class: 114
-      Script: {instanceID: 4120}
+      Script: {instanceID: 4356}
     - Class: 114
-      Script: {instanceID: 4206}
+      Script: {instanceID: 4894}
     - Class: 114
-      Script: {instanceID: 4304}
+      Script: {instanceID: 5210}
     - Class: 114
-      Script: {instanceID: 4362}
+      Script: {instanceID: 5326}
     - Class: 114
-      Script: {instanceID: 4902}
+      Script: {instanceID: 5414}
     - Class: 114
-      Script: {instanceID: 5084}
+      Script: {instanceID: 5704}
     - Class: 114
-      Script: {instanceID: 5218}
+      Script: {instanceID: 5882}
     - Class: 114
-      Script: {instanceID: 5286}
-    - Class: 114
-      Script: {instanceID: 5334}
-    - Class: 114
-      Script: {instanceID: 5422}
-    - Class: 114
-      Script: {instanceID: 5712}
-    - Class: 114
-      Script: {instanceID: 5734}
-    - Class: 114
-      Script: {instanceID: 5830}
+      Script: {instanceID: 6198}
     - Class: 114
       Script: {instanceID: 6206}
     - Class: 114
-      Script: {instanceID: 6214}
+      Script: {instanceID: 6240}
     - Class: 114
-      Script: {instanceID: 6248}
+      Script: {instanceID: 6546}
     - Class: 114
-      Script: {instanceID: 6880}
+      Script: {instanceID: 6872}
     - Class: 114
-      Script: {instanceID: 6952}
+      Script: {instanceID: 6964}
     - Class: 114
-      Script: {instanceID: 6972}
+      Script: {instanceID: 6982}
     - Class: 114
-      Script: {instanceID: 6978}
+      Script: {instanceID: 7018}
     - Class: 114
-      Script: {instanceID: 6990}
+      Script: {instanceID: 7054}
     - Class: 114
-      Script: {instanceID: 7026}
+      Script: {instanceID: 7102}
     - Class: 114
-      Script: {instanceID: 7062}
+      Script: {instanceID: 7760}
     - Class: 114
-      Script: {instanceID: 7110}
+      Script: {instanceID: 7794}
     - Class: 114
-      Script: {instanceID: 7240}
+      Script: {instanceID: 8008}
     - Class: 114
-      Script: {instanceID: 7340}
+      Script: {instanceID: 8178}
     - Class: 114
-      Script: {instanceID: 7476}
+      Script: {instanceID: 8266}
     - Class: 114
-      Script: {instanceID: 7772}
+      Script: {instanceID: 8392}
     - Class: 114
-      Script: {instanceID: 7806}
+      Script: {instanceID: 8772}
     - Class: 114
-      Script: {instanceID: 8020}
+      Script: {instanceID: 8958}
     - Class: 114
-      Script: {instanceID: 8276}
+      Script: {instanceID: 9362}
     - Class: 114
-      Script: {instanceID: 8402}
+      Script: {instanceID: 9378}
     - Class: 114
-      Script: {instanceID: 8784}
+      Script: {instanceID: 9430}
     - Class: 114
-      Script: {instanceID: 8822}
+      Script: {instanceID: 9510}
     - Class: 114
-      Script: {instanceID: 8882}
+      Script: {instanceID: 9636}
     - Class: 114
-      Script: {instanceID: 8970}
+      Script: {instanceID: 10338}
     - Class: 114
-      Script: {instanceID: 9376}
+      Script: {instanceID: 10490}
     - Class: 114
-      Script: {instanceID: 9392}
+      Script: {instanceID: 10554}
     - Class: 114
-      Script: {instanceID: 9444}
+      Script: {instanceID: 10856}
     - Class: 114
-      Script: {instanceID: 9524}
+      Script: {instanceID: 11152}
     - Class: 114
-      Script: {instanceID: 9640}
+      Script: {instanceID: 11304}
     - Class: 114
-      Script: {instanceID: 9650}
+      Script: {instanceID: 11402}
     - Class: 114
-      Script: {instanceID: 10352}
+      Script: {instanceID: 11740}
     - Class: 114
-      Script: {instanceID: 10506}
-    - Class: 114
-      Script: {instanceID: 10872}
-    - Class: 114
-      Script: {instanceID: 11168}
-    - Class: 114
-      Script: {instanceID: 11320}
-    - Class: 114
-      Script: {instanceID: 11418}
-    - Class: 114
-      Script: {instanceID: 11452}
-    - Class: 114
-      Script: {instanceID: 11688}
-    - Class: 114
-      Script: {instanceID: 11756}
+      Script: {instanceID: 92944}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -351,6 +310,10 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 225
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
+    - Class: 329
       Script: {instanceID: 0}
     - Class: 19719996
       Script: {instanceID: 0}
@@ -382,63 +345,63 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1504}
+      Script: {instanceID: 1502}
     - Class: 114
       Script: {instanceID: 1510}
     - Class: 114
-      Script: {instanceID: 1518}
+      Script: {instanceID: 2466}
     - Class: 114
-      Script: {instanceID: 2470}
+      Script: {instanceID: 2508}
     - Class: 114
-      Script: {instanceID: 2512}
+      Script: {instanceID: 2536}
     - Class: 114
-      Script: {instanceID: 2540}
+      Script: {instanceID: 2698}
     - Class: 114
-      Script: {instanceID: 2702}
+      Script: {instanceID: 3170}
     - Class: 114
-      Script: {instanceID: 3176}
+      Script: {instanceID: 3916}
     - Class: 114
-      Script: {instanceID: 3954}
+      Script: {instanceID: 3948}
     - Class: 114
-      Script: {instanceID: 4740}
+      Script: {instanceID: 4734}
     - Class: 114
-      Script: {instanceID: 4902}
+      Script: {instanceID: 4894}
     - Class: 114
-      Script: {instanceID: 5088}
+      Script: {instanceID: 5080}
     - Class: 114
-      Script: {instanceID: 5410}
+      Script: {instanceID: 5402}
     - Class: 114
-      Script: {instanceID: 5566}
+      Script: {instanceID: 5558}
     - Class: 114
-      Script: {instanceID: 6006}
+      Script: {instanceID: 5998}
     - Class: 114
-      Script: {instanceID: 6636}
+      Script: {instanceID: 6628}
     - Class: 114
-      Script: {instanceID: 6694}
+      Script: {instanceID: 6686}
     - Class: 114
-      Script: {instanceID: 6972}
+      Script: {instanceID: 6964}
     - Class: 114
-      Script: {instanceID: 7110}
+      Script: {instanceID: 7102}
     - Class: 114
-      Script: {instanceID: 7364}
+      Script: {instanceID: 7354}
     - Class: 114
-      Script: {instanceID: 8020}
+      Script: {instanceID: 8008}
     - Class: 114
-      Script: {instanceID: 8276}
+      Script: {instanceID: 8266}
     - Class: 114
-      Script: {instanceID: 8516}
+      Script: {instanceID: 8506}
     - Class: 114
-      Script: {instanceID: 8702}
+      Script: {instanceID: 8690}
     - Class: 114
-      Script: {instanceID: 9444}
+      Script: {instanceID: 9430}
     - Class: 114
-      Script: {instanceID: 9524}
+      Script: {instanceID: 9510}
     - Class: 114
-      Script: {instanceID: 10164}
+      Script: {instanceID: 10150}
     - Class: 114
-      Script: {instanceID: 10506}
+      Script: {instanceID: 10490}
     - Class: 114
-      Script: {instanceID: 11700}
+      Script: {instanceID: 11684}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -485,126 +448,24 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 670}
     - Class: 114
-      Script: {instanceID: 1502}
+      Script: {instanceID: 1574}
     - Class: 114
-      Script: {instanceID: 1504}
+      Script: {instanceID: 3452}
     - Class: 114
-      Script: {instanceID: 1506}
+      Script: {instanceID: 4894}
     - Class: 114
-      Script: {instanceID: 1508}
+      Script: {instanceID: 5210}
     - Class: 114
-      Script: {instanceID: 1510}
+      Script: {instanceID: 6240}
     - Class: 114
-      Script: {instanceID: 1512}
+      Script: {instanceID: 8772}
     - Class: 114
-      Script: {instanceID: 1514}
+      Script: {instanceID: 8958}
     - Class: 114
-      Script: {instanceID: 1518}
+      Script: {instanceID: 9362}
     - Class: 114
-      Script: {instanceID: 1578}
-    - Class: 114
-      Script: {instanceID: 1746}
-    - Class: 114
-      Script: {instanceID: 1758}
-    - Class: 114
-      Script: {instanceID: 1882}
-    - Class: 114
-      Script: {instanceID: 2688}
-    - Class: 114
-      Script: {instanceID: 2758}
-    - Class: 114
-      Script: {instanceID: 3454}
-    - Class: 114
-      Script: {instanceID: 3458}
-    - Class: 114
-      Script: {instanceID: 3564}
-    - Class: 114
-      Script: {instanceID: 3684}
-    - Class: 114
-      Script: {instanceID: 4048}
-    - Class: 114
-      Script: {instanceID: 4206}
-    - Class: 114
-      Script: {instanceID: 4902}
-    - Class: 114
-      Script: {instanceID: 5084}
-    - Class: 114
-      Script: {instanceID: 5218}
-    - Class: 114
-      Script: {instanceID: 5286}
-    - Class: 114
-      Script: {instanceID: 5334}
-    - Class: 114
-      Script: {instanceID: 5422}
-    - Class: 114
-      Script: {instanceID: 5734}
-    - Class: 114
-      Script: {instanceID: 5830}
-    - Class: 114
-      Script: {instanceID: 6206}
-    - Class: 114
-      Script: {instanceID: 6248}
-    - Class: 114
-      Script: {instanceID: 6880}
-    - Class: 114
-      Script: {instanceID: 6952}
-    - Class: 114
-      Script: {instanceID: 6972}
-    - Class: 114
-      Script: {instanceID: 6978}
-    - Class: 114
-      Script: {instanceID: 6990}
-    - Class: 114
-      Script: {instanceID: 7026}
-    - Class: 114
-      Script: {instanceID: 7062}
-    - Class: 114
-      Script: {instanceID: 7110}
-    - Class: 114
-      Script: {instanceID: 7240}
-    - Class: 114
-      Script: {instanceID: 7340}
-    - Class: 114
-      Script: {instanceID: 7476}
-    - Class: 114
-      Script: {instanceID: 7772}
-    - Class: 114
-      Script: {instanceID: 8020}
-    - Class: 114
-      Script: {instanceID: 8276}
-    - Class: 114
-      Script: {instanceID: 8402}
-    - Class: 114
-      Script: {instanceID: 8784}
-    - Class: 114
-      Script: {instanceID: 8822}
-    - Class: 114
-      Script: {instanceID: 8882}
-    - Class: 114
-      Script: {instanceID: 8970}
-    - Class: 114
-      Script: {instanceID: 9376}
-    - Class: 114
-      Script: {instanceID: 9392}
-    - Class: 114
-      Script: {instanceID: 9524}
-    - Class: 114
-      Script: {instanceID: 9640}
-    - Class: 114
-      Script: {instanceID: 9644}
-    - Class: 114
-      Script: {instanceID: 9650}
-    - Class: 114
-      Script: {instanceID: 10352}
-    - Class: 114
-      Script: {instanceID: 11418}
-    - Class: 114
-      Script: {instanceID: 11452}
-    - Class: 114
-      Script: {instanceID: 11688}
+      Script: {instanceID: 9630}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -613,14 +474,6 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    - Class: 225
       Script: {instanceID: 0}
     - Class: 156049354
       Script: {instanceID: 0}
@@ -631,34 +484,16 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: aba7b2852ef61d175dd9602e7723d5e5
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Mask
-  - hash:
-      serializedVersion: 2
       Hash: ae83e830e7a90c0aff918c4c2e520825
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
-      Hash: bcaee4c2a83047257b5f47d6ed264b75
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
-    className: Toggle
-  - hash:
-      serializedVersion: 2
-      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: AspectRatioFitter
-  - hash:
-      serializedVersion: 2
-      Hash: a6e561615949734e9f12f9b61661f43e
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Image
+    className: Mask
   - hash:
       serializedVersion: 2
       Hash: 699619b86d9359741a4f58540298c80b
@@ -667,10 +502,16 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
-      Hash: 040dd48e3a027d5424519a5fa2009df4
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
-    className: ScrollRect
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
   - hash:
       serializedVersion: 2
       Hash: 134322c9293c1896357cce271b819ce4
@@ -679,10 +520,10 @@ ScriptsOnlyBuild:
     className: EventTrigger
   - hash:
       serializedVersion: 2
-      Hash: 69415240821be7986b27e72bf9609a30
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
-    className: Button
+    className: LayoutElement
   - hash:
       serializedVersion: 2
       Hash: 626b48f53101bcc06cca1db7510b2b31
@@ -713,6 +554,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: PixelCrushers.DialogueSystem.Wrappers
     className: SequenceTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: kanjiRecognizedScript
   - hash:
       serializedVersion: 2
       Hash: 8b14ed985619f82be1459511ddc458a6
@@ -761,12 +608,6 @@ ScriptsOnlyBuild:
     assemblyName: SimpleScrollSnap.dll
     namespaceName: DanielLochner.Assets.SimpleScrollSnap
     className: Scale
-  - hash:
-      serializedVersion: 2
-      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: LayoutElement
   - hash:
       serializedVersion: 2
       Hash: adb7d513cf5a31e415f2f61caabe8bc5
@@ -1153,12 +994,6 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
-      Hash: e385275bcaf7f0016150075db3cdcf91
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: DanielLochner.Assets.SimpleScrollSnap
-    className: SlotMachine
-  - hash:
-      serializedVersion: 2
       Hash: e0dcc754547b0b137231726df4ca3470
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: PixelCrushers.DialogueSystem.Wrappers
@@ -1315,12 +1150,6 @@ ScriptsOnlyBuild:
     className: StandardUIFoldoutTemplate
   - hash:
       serializedVersion: 2
-      Hash: 3f7d3eac3468685ef18425a40cd5b891
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: DanielLochner.Assets.SimpleScrollSnap
-    className: Rotator
-  - hash:
-      serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1453,6 +1282,12 @@ ScriptsOnlyBuild:
     className: DefaultCameraAngle
   - hash:
       serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
       Hash: 7017eb53e695bc5c12c02f81e3786abd
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: PixelCrushers.Wrappers
@@ -1525,7 +1360,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseDragMessageListener
   - hash:
       serializedVersion: 2
-      Hash: ad9ca08ae05bc373a956f60363456cfd
+      Hash: 10115cc5316b4c43d32c43cf0056ef05
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MyGestureHandler
@@ -1739,12 +1574,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: PixelCrushers.Wrappers
     className: SaveSystemTestMenu
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: DanielLochner.Assets.SimpleScrollSnap
-    className: ExpandInformation
   - hash:
       serializedVersion: 2
       Hash: a064ddaf8f981efc803a1fc5f62ef4f0
@@ -2773,12 +2602,6 @@ ScriptsOnlyBuild:
     className: CheckPhysics2D
   - hash:
       serializedVersion: 2
-      Hash: 396216e847310e829a6176d36aa52e4f
-    assemblyName: VirtualButtonsScripts.dll
-    namespaceName: 
-    className: VirtualJoystick
-  - hash:
-      serializedVersion: 2
       Hash: 4c1f612e6e4ee393c1753c71b724ad29
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
@@ -2855,12 +2678,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: PixelCrushers.DialogueSystem
     className: SetAnimationOnDialogueEvent
-  - hash:
-      serializedVersion: 2
-      Hash: dd1becfe95cc2b0702bf3b3f1b68da4d
-    assemblyName: VirtualButtonsScripts.dll
-    namespaceName: 
-    className: VirtualJoystickFloating
   - hash:
       serializedVersion: 2
       Hash: 85ce8bdf90b674a931520d60f2e898e8
@@ -3109,6 +2926,12 @@ ScriptsOnlyBuild:
     className: AnimatorMessageListener
   - hash:
       serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
       Hash: 040dd48e3a027d5424519a5fa2009df4
     assemblyName: SimpleScrollSnap.dll
     namespaceName: 
@@ -3191,12 +3014,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: PixelCrushers.DialogueSystem.UnityGUI.Wrappers
     className: SlideEffect
-  - hash:
-      serializedVersion: 2
-      Hash: 4c86ef238790808d74ded1147931855d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: DanielLochner.Assets.SimpleScrollSnap
-    className: FileUI
   - hash:
       serializedVersion: 2
       Hash: 62570622dd54531619134dcb46d656fd
@@ -3503,12 +3320,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: PixelCrushers.DialogueSystem.Wrappers
     className: UnityUIDialogueUI
-  - hash:
-      serializedVersion: 2
-      Hash: 0f24ba2f71c1e5311a4a7a1b8b94f7d4
-    assemblyName: VirtualButtonsScripts.dll
-    namespaceName: 
-    className: VirtualDPad
   - hash:
       serializedVersion: 2
       Hash: 368f99c9d3e219b3518854fbab5c466d
@@ -3841,12 +3652,6 @@ ScriptsOnlyBuild:
     className: ConversationControl
   - hash:
       serializedVersion: 2
-      Hash: 2b0c7eb62bd2f616003944b52cb38747
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: DanielLochner.Assets.SimpleScrollSnap
-    className: DynamicContent
-  - hash:
-      serializedVersion: 2
       Hash: 45f67a508938a03dbfc3d959514d4a46
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: PixelCrushers.DialogueSystem
@@ -3913,16 +3718,16 @@ ScriptsOnlyBuild:
     className: SpawnedObjectManager
   - hash:
       serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
       Hash: 7c0c81c399818ac5ec177385bb3bb6e7
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: PixelCrushers.DialogueSystem
     className: ActorSubtitleColor
-  - hash:
-      serializedVersion: 2
-      Hash: 2031c7a17024ab92ed2d97eac8f56fb2
-    assemblyName: VirtualButtonsScripts.dll
-    namespaceName: 
-    className: VirtualButton
   - hash:
       serializedVersion: 2
       Hash: e224258cfd4d18d0b5e1532c6e9e5eb3
@@ -4295,6 +4100,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: addKanjiToMenu
   platform: 20
   scenePathNames:
   - Assets/Scenes/StartScreen.unity

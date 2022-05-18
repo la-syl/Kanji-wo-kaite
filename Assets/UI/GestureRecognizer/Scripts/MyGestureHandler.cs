@@ -15,10 +15,9 @@ public class MyGestureHandler : MonoBehaviour {
 	public Transform referenceRoot;
 	private GesturePatternDraw[] references;
 
-	//HonQuest variables
+	//Quest variables
 	public GameObject JishoButton;
 	private int timesHonWritten = 0;
-
 	private RecognitionResult cachedResult;
 
 	void Start () {
@@ -40,23 +39,35 @@ public class MyGestureHandler : MonoBehaviour {
 	}
 
 	public void KanjiCheck() {
+
+		//Book - Origin - Japan
 		if (cachedResult.gesture.id == "Hon")
 		{
-
 			bool LearnedHon = DialogueLua.GetVariable("wroteHon").asBool;
 
-			if (LearnedHon == false) {
-				DialogueLua.SetVariable("wroteHon", true);
-				JishoButton.SetActive(true);
-			}
+			//Checking to see if hon learning event was started or completed
+			if (QuestLog.GetQuestState("quest_Hon") != QuestState.Unassigned)
+			{
+				//Checking if Kanji was learned
+				if (LearnedHon == false)
+				{
+					DialogueLua.SetVariable("wroteHon", true);
+					JishoButton.SetActive(true);
+					DialogueManager.ShowAlert("You have learned a new Kanji! GG!");
+				}
 
-			Debug.Log("GG! Tu viens d'écrire le Kanji Hon! ");
-			timesHonWritten++;
+				//Incrementing number of times this Kanji was written
+				timesHonWritten++;
 
-			if (timesHonWritten == 10) {
-				DialogueManager.ShowAlert("You have written " + timesHonWritten + " times!");
+				//Alerts for congratulation
+				if (timesHonWritten == 10)
+				{
+					DialogueManager.ShowAlert("You have written " + timesHonWritten + " times!");
+				}
 			}
 		}
+
+		//Numbers 1 - 10
 		if (cachedResult.gesture.id == "Ichi") 
 		{
 			Debug.Log("You have written " + cachedResult.gesture.id);
@@ -74,6 +85,26 @@ public class MyGestureHandler : MonoBehaviour {
 			Debug.Log("You have written " + cachedResult.gesture.id);
 		}
 		if (cachedResult.gesture.id == "Go")
+		{
+			Debug.Log("You have written " + cachedResult.gesture.id);
+		}
+		if (cachedResult.gesture.id == "Roku")
+		{
+			Debug.Log("You have written " + cachedResult.gesture.id);
+		}
+		if (cachedResult.gesture.id == "Nana")
+		{
+			Debug.Log("You have written " + cachedResult.gesture.id);
+		}
+		if (cachedResult.gesture.id == "Hachi")
+		{
+			Debug.Log("You have written " + cachedResult.gesture.id);
+		}
+		if (cachedResult.gesture.id == "Kyuu")
+		{
+			Debug.Log("You have written " + cachedResult.gesture.id);
+		}
+		if (cachedResult.gesture.id == "Djuu")
 		{
 			Debug.Log("You have written " + cachedResult.gesture.id);
 		}

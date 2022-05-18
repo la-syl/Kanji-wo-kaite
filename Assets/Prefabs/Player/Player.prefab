@@ -59,7 +59,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8
+  orthographic size: 5
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -69,7 +69,7 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
-  m_AllowMSAA: 1
+  m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
@@ -345,8 +345,8 @@ MonoBehaviour:
   textStyleColor: {r: 0, g: 0, b: 0, a: 1}
   defaultUseMessage: Tap to Speak
   useKey: 32
-  useButton: South Button
-  enableTouch: 1
+  useButton: Interact
+  enableTouch: 0
   touchArea:
     origin: 0
     alignment: 0
@@ -361,11 +361,11 @@ MonoBehaviour:
       value: 1080
     height:
       scale: 0
-      value: 1920
-    minPixelWidth: 400
-    minPixelHeight: 400
+      value: 2500
+    minPixelWidth: 1080
+    minPixelHeight: 1920
   broadcastToChildren: 1
-  actorTransform: {fileID: 0}
+  actorTransform: {fileID: 6733093339449617903}
   onSelectedUsable:
     m_PersistentCalls:
       m_Calls: []
@@ -401,10 +401,34 @@ MonoBehaviour:
   conversationEvents:
     onConversationStart:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onConversationEnd:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
     runOnConversationEndEventsAtEndOfFrame: 0
     onConversationCancelled:
       m_PersistentCalls:

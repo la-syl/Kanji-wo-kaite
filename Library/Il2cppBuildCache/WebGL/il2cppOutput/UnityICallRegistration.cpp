@@ -2062,10 +2062,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Object_Internal_CloneSingleWithParent();
 		Register_UnityEngine_Object_Internal_CloneSingleWithParent();
 
-		//UnityEngine.Object UnityEngine.Object::Internal_InstantiateSingleWithParent_Injected(UnityEngine.Object,UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Quaternion&)
-		void Register_UnityEngine_Object_Internal_InstantiateSingleWithParent_Injected();
-		Register_UnityEngine_Object_Internal_InstantiateSingleWithParent_Injected();
-
 		//UnityEngine.Object UnityEngine.Object::Internal_InstantiateSingle_Injected(UnityEngine.Object,UnityEngine.Vector3&,UnityEngine.Quaternion&)
 		void Register_UnityEngine_Object_Internal_InstantiateSingle_Injected();
 		Register_UnityEngine_Object_Internal_InstantiateSingle_Injected();
@@ -2559,6 +2555,14 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Rigidbody_MoveRotation_Injected();
 
 	//End Registrations for type : UnityEngine.Rigidbody
+
+	//Start Registrations for type : UnityEngine.Rigidbody2D
+
+		//System.Void UnityEngine.Rigidbody2D::set_velocity_Injected(UnityEngine.Vector2&)
+		void Register_UnityEngine_Rigidbody2D_set_velocity_Injected();
+		Register_UnityEngine_Rigidbody2D_set_velocity_Injected();
+
+	//End Registrations for type : UnityEngine.Rigidbody2D
 
 	//Start Registrations for type : UnityEngine.SceneManagement.Scene
 
@@ -3145,10 +3149,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Transform::InverseTransformPoint_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&)
 		void Register_UnityEngine_Transform_InverseTransformPoint_Injected();
 		Register_UnityEngine_Transform_InverseTransformPoint_Injected();
-
-		//System.Void UnityEngine.Transform::RotateAroundInternal_Injected(UnityEngine.Vector3&,System.Single)
-		void Register_UnityEngine_Transform_RotateAroundInternal_Injected();
-		Register_UnityEngine_Transform_RotateAroundInternal_Injected();
 
 		//System.Void UnityEngine.Transform::SetAsFirstSibling()
 		void Register_UnityEngine_Transform_SetAsFirstSibling();

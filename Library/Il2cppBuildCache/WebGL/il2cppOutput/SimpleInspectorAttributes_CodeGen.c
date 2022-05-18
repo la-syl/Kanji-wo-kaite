@@ -34,10 +34,10 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] =
 };
 static const int32_t s_InvokerIndices[4] = 
 {
-	2833,
-	1702,
-	720,
-	1702,
+	2834,
+	1703,
+	722,
+	1703,
 };
 extern const CustomAttributesCacheGenerator g_SimpleInspectorAttributes_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_SimpleInspectorAttributes_CodeGenModule;
