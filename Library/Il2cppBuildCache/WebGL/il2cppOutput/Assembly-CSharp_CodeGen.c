@@ -154,42 +154,42 @@ extern void PlayerController_FixedUpdate_m54EE3ADAA7597303B1F69849B233D1A68D880B
 extern void PlayerController_PlayerMove_m43C108D8FED1F1B81F90EA89108BD7CCB817B08A (void);
 // 0x0000004D System.Void PlayerController::.ctor()
 extern void PlayerController__ctor_mF30385729DAFDFCB895C4939F6051DCE6C0327FB (void);
-// 0x0000004E System.Void testScript::Start()
-extern void testScript_Start_m56562FE5B5355E325D29C27A2CF34E092B9BD25A (void);
-// 0x0000004F System.Void testScript::Update()
-extern void testScript_Update_m691F5D7CA26DC39C8E89A23E6E7B35521B45C3B7 (void);
-// 0x00000050 System.Void testScript::.ctor()
-extern void testScript__ctor_m2B60551F75E72313895453D553323CC01C85CED7 (void);
-// 0x00000051 System.Void GestureOptions::OnEnable()
-extern void GestureOptions_OnEnable_m2BFCDF16C370DD212E4A79E5E1F9DBD9A77121B8 (void);
-// 0x00000052 System.Void GestureOptions::OnDisable()
-extern void GestureOptions_OnDisable_m714E3C3A00E622400F6EFFA176853EC23C5EB15E (void);
-// 0x00000053 System.Void GestureOptions::RecognitionResult(GestureRecognizer.RecognitionResult)
-extern void GestureOptions_RecognitionResult_m752E9D7E8F6E2D206A24C02EE277FD108103C595 (void);
-// 0x00000054 System.Void GestureOptions::OnChangeMinMax()
-extern void GestureOptions_OnChangeMinMax_mDD4014973EC18847B875411DB35BA1BD0CB39D31 (void);
-// 0x00000055 System.Void GestureOptions::OnChangeThreads()
-extern void GestureOptions_OnChangeThreads_m392462631265FA1B03DD1152645801561B09C0C7 (void);
-// 0x00000056 System.Void GestureOptions::.ctor()
-extern void GestureOptions__ctor_m8715835A19EC2B863BBFFF07A0B94EB4AE525946 (void);
-// 0x00000057 System.Void MyGestureHandler::Start()
-extern void MyGestureHandler_Start_mAD9EF06F07A2886A3307301C8ACE494F9F1A7212 (void);
-// 0x00000058 System.Void MyGestureHandler::OnRecognize(GestureRecognizer.RecognitionResult)
-extern void MyGestureHandler_OnRecognize_m89E77AFB9C8F82EFFBC5719B0AF46F8CAEE7C9A3 (void);
-// 0x00000059 System.Void MyGestureHandler::KanjiCheck()
-extern void MyGestureHandler_KanjiCheck_m7EE093471D87DCC6EC623198A0902D22BABEF482 (void);
-// 0x0000005A System.Void MyGestureHandler::.ctor()
-extern void MyGestureHandler__ctor_m5C76375C2FCE2C06480160F489B55166503B189D (void);
-// 0x0000005B System.Void addKanjiToMenu::Start()
+// 0x0000004E System.Void addKanjiToMenu::Start()
 extern void addKanjiToMenu_Start_m88F2C0CE8E1E407683EC8761C1087C037D19BD53 (void);
-// 0x0000005C System.Void addKanjiToMenu::.ctor()
+// 0x0000004F System.Void addKanjiToMenu::.ctor()
 extern void addKanjiToMenu__ctor_mB9EF91E18591D04D22D8954875B76D5E8426DD19 (void);
-// 0x0000005D System.Void kanjiRecognizedScript::Start()
+// 0x00000050 System.Void kanjiRecognizedScript::Start()
 extern void kanjiRecognizedScript_Start_m37B87708E6C61CD1213732D8D786E3D029C6DD29 (void);
-// 0x0000005E System.Void kanjiRecognizedScript::Update()
+// 0x00000051 System.Void kanjiRecognizedScript::Update()
 extern void kanjiRecognizedScript_Update_mD37118CFF996AADA260C2875960E1B40BF18D7C0 (void);
-// 0x0000005F System.Void kanjiRecognizedScript::.ctor()
+// 0x00000052 System.Void kanjiRecognizedScript::.ctor()
 extern void kanjiRecognizedScript__ctor_m943CC58CD8030583A3212B07FDFACA4178C074AD (void);
+// 0x00000053 System.Void testScript::Start()
+extern void testScript_Start_m56562FE5B5355E325D29C27A2CF34E092B9BD25A (void);
+// 0x00000054 System.Void testScript::Update()
+extern void testScript_Update_m691F5D7CA26DC39C8E89A23E6E7B35521B45C3B7 (void);
+// 0x00000055 System.Void testScript::.ctor()
+extern void testScript__ctor_m2B60551F75E72313895453D553323CC01C85CED7 (void);
+// 0x00000056 System.Void GestureOptions::OnEnable()
+extern void GestureOptions_OnEnable_m2BFCDF16C370DD212E4A79E5E1F9DBD9A77121B8 (void);
+// 0x00000057 System.Void GestureOptions::OnDisable()
+extern void GestureOptions_OnDisable_m714E3C3A00E622400F6EFFA176853EC23C5EB15E (void);
+// 0x00000058 System.Void GestureOptions::RecognitionResult(GestureRecognizer.RecognitionResult)
+extern void GestureOptions_RecognitionResult_m752E9D7E8F6E2D206A24C02EE277FD108103C595 (void);
+// 0x00000059 System.Void GestureOptions::OnChangeMinMax()
+extern void GestureOptions_OnChangeMinMax_mDD4014973EC18847B875411DB35BA1BD0CB39D31 (void);
+// 0x0000005A System.Void GestureOptions::OnChangeThreads()
+extern void GestureOptions_OnChangeThreads_m392462631265FA1B03DD1152645801561B09C0C7 (void);
+// 0x0000005B System.Void GestureOptions::.ctor()
+extern void GestureOptions__ctor_m8715835A19EC2B863BBFFF07A0B94EB4AE525946 (void);
+// 0x0000005C System.Void MyGestureHandler::Start()
+extern void MyGestureHandler_Start_mAD9EF06F07A2886A3307301C8ACE494F9F1A7212 (void);
+// 0x0000005D System.Void MyGestureHandler::OnRecognize(GestureRecognizer.RecognitionResult)
+extern void MyGestureHandler_OnRecognize_m89E77AFB9C8F82EFFBC5719B0AF46F8CAEE7C9A3 (void);
+// 0x0000005E System.Void MyGestureHandler::KanjiCheck()
+extern void MyGestureHandler_KanjiCheck_m7EE093471D87DCC6EC623198A0902D22BABEF482 (void);
+// 0x0000005F System.Void MyGestureHandler::.ctor()
+extern void MyGestureHandler__ctor_m5C76375C2FCE2C06480160F489B55166503B189D (void);
 // 0x00000060 System.Void GestureRecognizer.DrawDetector::set_MinLines(System.Int32)
 extern void DrawDetector_set_MinLines_m9E62168E85F0BA3F354C15C3E0334C59D9540778 (void);
 // 0x00000061 System.Void GestureRecognizer.DrawDetector::set_MaxLines(System.Int32)
@@ -483,6 +483,11 @@ static Il2CppMethodPointer s_methodPointers[202] =
 	PlayerController_FixedUpdate_m54EE3ADAA7597303B1F69849B233D1A68D880B14,
 	PlayerController_PlayerMove_m43C108D8FED1F1B81F90EA89108BD7CCB817B08A,
 	PlayerController__ctor_mF30385729DAFDFCB895C4939F6051DCE6C0327FB,
+	addKanjiToMenu_Start_m88F2C0CE8E1E407683EC8761C1087C037D19BD53,
+	addKanjiToMenu__ctor_mB9EF91E18591D04D22D8954875B76D5E8426DD19,
+	kanjiRecognizedScript_Start_m37B87708E6C61CD1213732D8D786E3D029C6DD29,
+	kanjiRecognizedScript_Update_mD37118CFF996AADA260C2875960E1B40BF18D7C0,
+	kanjiRecognizedScript__ctor_m943CC58CD8030583A3212B07FDFACA4178C074AD,
 	testScript_Start_m56562FE5B5355E325D29C27A2CF34E092B9BD25A,
 	testScript_Update_m691F5D7CA26DC39C8E89A23E6E7B35521B45C3B7,
 	testScript__ctor_m2B60551F75E72313895453D553323CC01C85CED7,
@@ -496,11 +501,6 @@ static Il2CppMethodPointer s_methodPointers[202] =
 	MyGestureHandler_OnRecognize_m89E77AFB9C8F82EFFBC5719B0AF46F8CAEE7C9A3,
 	MyGestureHandler_KanjiCheck_m7EE093471D87DCC6EC623198A0902D22BABEF482,
 	MyGestureHandler__ctor_m5C76375C2FCE2C06480160F489B55166503B189D,
-	addKanjiToMenu_Start_m88F2C0CE8E1E407683EC8761C1087C037D19BD53,
-	addKanjiToMenu__ctor_mB9EF91E18591D04D22D8954875B76D5E8426DD19,
-	kanjiRecognizedScript_Start_m37B87708E6C61CD1213732D8D786E3D029C6DD29,
-	kanjiRecognizedScript_Update_mD37118CFF996AADA260C2875960E1B40BF18D7C0,
-	kanjiRecognizedScript__ctor_m943CC58CD8030583A3212B07FDFACA4178C074AD,
 	DrawDetector_set_MinLines_m9E62168E85F0BA3F354C15C3E0334C59D9540778,
 	DrawDetector_set_MaxLines_mF6A0647F17E8345405778CC76A9C8C1256F2761B,
 	DrawDetector_Start_m78010AB89193CA8E4641D46DE9BB5670DC4FF161,
@@ -748,17 +748,17 @@ static const int32_t s_InvokerIndices[202] =
 	3482,
 	3482,
 	3482,
+	3482,
+	3482,
+	3482,
+	3482,
+	3482,
 	2811,
 	3482,
 	3482,
 	3482,
 	3482,
 	2811,
-	3482,
-	3482,
-	3482,
-	3482,
-	3482,
 	3482,
 	3482,
 	2795,

@@ -58,7 +58,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Sprite.Editor.dll:
     - UnityEditor.U2D.Sprites.SpriteEditorWindow
     Unity.2D.Tilemap.Editor.dll:
@@ -91,6 +90,9 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.PlayerInput
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
+    Unity.Play.Publisher.Editor.dll:
+    - Unity.Play.Publisher.Editor.AnalyticsHelper
+    - Unity.Play.Publisher.Editor.PublisherWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -175,9 +177,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1510}
     - Class: 114
-      Script: {instanceID: 1514}
+      Script: {instanceID: 1572}
     - Class: 114
-      Script: {instanceID: 1574}
+      Script: {instanceID: 1742}
     - Class: 114
       Script: {instanceID: 1878}
     - Class: 114
@@ -350,7 +352,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1510}
     - Class: 114
-      Script: {instanceID: 1514}
+      Script: {instanceID: 1742}
     - Class: 114
       Script: {instanceID: 2466}
     - Class: 114
@@ -451,7 +453,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 670}
     - Class: 114
-      Script: {instanceID: 1574}
+      Script: {instanceID: 1572}
     - Class: 114
       Script: {instanceID: 3452}
     - Class: 114
@@ -521,12 +523,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: EventTrigger
-  - hash:
-      serializedVersion: 2
-      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: LayoutElement
   - hash:
       serializedVersion: 2
       Hash: 626b48f53101bcc06cca1db7510b2b31
@@ -611,6 +607,12 @@ ScriptsOnlyBuild:
     assemblyName: SimpleScrollSnap.dll
     namespaceName: DanielLochner.Assets.SimpleScrollSnap
     className: Scale
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
   - hash:
       serializedVersion: 2
       Hash: adb7d513cf5a31e415f2f61caabe8bc5
@@ -4114,4 +4116,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/StartScreen.unity
   - Assets/Scenes/House_Mayor.unity
   - Assets/Scenes/Village.unity
-  playerPath: D:/Documents/Unity Projects/TFG_UOC/Builds
+  playerPath: D:/Documents/Unity Projects/TFG_UOC/WebGL Builds

@@ -10936,6 +10936,7 @@ MonoBehaviour:
   score: {fileID: 6175095261801335241}
   referenceRoot: {fileID: 8653670765948770453}
   JishoButton: {fileID: 8653670765422698149}
+  KanjiScroll: {fileID: 0}
 --- !u!114 &8653670765948770408
 MonoBehaviour:
   m_ObjectHideFlags: 0
