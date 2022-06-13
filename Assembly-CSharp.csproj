@@ -60,6 +60,7 @@
     <Compile Include="Assets\UI\GestureRecognizer\Scripts\GesturePatternDraw.cs" />
     <Compile Include="Assets\UI\GestureRecognizer\Scripts\Recognizer.cs" />
     <Compile Include="Assets\UI\GestureRecognizer\Scripts\DrawDetector.cs" />
+    <Compile Include="Assets\Scripts\VolumeControlScript.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\UI\GestureRecognizer\Scripts\MyGestureHandler.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Assets\UI\GestureRecognizer\Scripts\UILineRenderer.cs" />
     <Compile Include="Assets\Scripts\testScript.cs" />
     <Compile Include="Assets\Scripts\NPCController.cs" />
+    <Compile Include="Assets\ActivateButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -311,11 +313,11 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.31f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.6.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
       <HintPath>Library\PackageCache\com.unity.connect.share@4.2.3\Plugins\System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.6.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.31f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -731,8 +733,8 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    <Reference Include="Unity.Play.Publisher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Play.Publisher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="VSSettingsProvider">
       <HintPath>Library\ScriptAssemblies\VSSettingsProvider.dll</HintPath>
@@ -746,14 +748,23 @@
     <Reference Include="Unity.InternalAPIEditorBridge.001">
       <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
@@ -785,15 +796,6 @@
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Play.Publisher.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Play.Publisher.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
@@ -808,6 +810,10 @@
       <Project>{B7D08DC4-DF91-3A5C-3321-A16FBEA2F3ED}</Project>
       <Name>SimpleInspectorAttributes</Name>
     </ProjectReference>
+    <ProjectReference Include="FMODUnityResonanceEditor.csproj">
+      <Project>{AE69233A-6017-BC90-7055-8337B195C4B2}</Project>
+      <Name>FMODUnityResonanceEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="SimpleScrollSnapEditor.csproj">
       <Project>{59D1253F-6788-B622-0E58-13C04556A4D6}</Project>
       <Name>SimpleScrollSnapEditor</Name>
@@ -816,13 +822,25 @@
       <Project>{F16FFB5C-1712-A572-5552-7681F118EA26}</Project>
       <Name>Utilities</Name>
     </ProjectReference>
+    <ProjectReference Include="FMODUnity.csproj">
+      <Project>{A9599EF3-E187-FEAA-0559-20D976C1A9EF}</Project>
+      <Name>FMODUnity</Name>
+    </ProjectReference>
     <ProjectReference Include="UtilitiesEditor.csproj">
       <Project>{28FCDFA6-15CA-CF50-DAA7-11A8D7ADE621}</Project>
       <Name>UtilitiesEditor</Name>
     </ProjectReference>
+    <ProjectReference Include="FMODUnityEditor.csproj">
+      <Project>{D03F6EE9-2306-8BCB-DCE0-3B2DD512DE0D}</Project>
+      <Name>FMODUnityEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="SimpleScrollSnap.csproj">
       <Project>{9226292D-44DF-56A7-D113-A7870D59154F}</Project>
       <Name>SimpleScrollSnap</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonance.csproj">
+      <Project>{45718153-CF6E-241B-1E2A-5EE1278EC83F}</Project>
+      <Name>FMODUnityResonance</Name>
     </ProjectReference>
     <ProjectReference Include="CopyrightNoticeEditor.csproj">
       <Project>{4AAB4E8F-C684-BA8D-43DE-FF85AF550B72}</Project>

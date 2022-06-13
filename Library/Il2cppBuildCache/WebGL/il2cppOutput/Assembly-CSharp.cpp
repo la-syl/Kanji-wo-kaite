@@ -238,6 +238,8 @@ struct DeviceRequirementU5BU5D_t1710BD7C885BD2A455A8C023AEE312C92CC84A2A;
 struct UnicodeCharU5BU5D_tB233FC88865130D0B1EA18DA685C2AF41FB134F7;
 // System.Action
 struct Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6;
+// ActivateButton
+struct ActivateButton_t90E7E5153F485D22DF539F868C2416D0E0227C60;
 // UnityEngine.UI.AnimationTriggers
 struct AnimationTriggers_tF38CA7FA631709E096B57D732668D86081F44C11;
 // UnityEngine.Animator
@@ -416,6 +418,8 @@ struct UnityAction_t22E545F8BE0A62EE051C6A83E209587A0DB1C099;
 struct VertexHelper_tDE8B67D3B076061C4F8DF325B0D63ED2E5367E55;
 // System.Void
 struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5;
+// VolumeControlScript
+struct VolumeControlScript_t7D9B061E82460F6531ABC37D6205918F3C59836F;
 // addKanjiToMenu
 struct addKanjiToMenu_t1FE76570F8F8CAA8AF9E2EC4E66BFDD83B0779FB;
 // kanjiRecognizedScript
@@ -498,6 +502,7 @@ IL2CPP_EXTERN_C RuntimeClass* Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_i
 IL2CPP_EXTERN_C RuntimeClass* QuestLog_tCDF5B6051280AA6261E959389A1EEAD389A8D067_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RectTransform_t8A6A306FB29A6C8C22010CF9040E319753571072_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RuntimeManager_t1DD0703C1A7473D65A44439D647D7C6B0C36C8FF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Stopwatch_t78C5E942A89311381E0D8894576457C33462DF89_il2cpp_TypeInfo_var;
@@ -523,57 +528,84 @@ IL2CPP_EXTERN_C RuntimeClass* Vector2U5BU5D_tE0F58A2D6D8592B5EC37D9CDEF09103A02E
 IL2CPP_EXTERN_C String_t* _stringLiteral00E266C3F317DED75731A6443C41E775F798CDFA;
 IL2CPP_EXTERN_C String_t* _stringLiteral017B351DA3E50FAF2CFBB408359C6C0480F02932;
 IL2CPP_EXTERN_C String_t* _stringLiteral097759F39246EF86E9D27F51B360064465FC92DF;
-IL2CPP_EXTERN_C String_t* _stringLiteral0AF63936C56009D8551D4E661B87EF5673ACA95B;
+IL2CPP_EXTERN_C String_t* _stringLiteral09D3D4DD84B2BDA2566871186B28A0315DB8655F;
 IL2CPP_EXTERN_C String_t* _stringLiteral0D3B90A26D891987290BAA0B332B0DBAF0170AC2;
 IL2CPP_EXTERN_C String_t* _stringLiteral117C34CEF055E54D018BB5CB8A52E1D66434C6E6;
+IL2CPP_EXTERN_C String_t* _stringLiteral13B7B067733C9DE4BA47F52C6B4BE81BF920A98C;
 IL2CPP_EXTERN_C String_t* _stringLiteral190CDBBC7377A308B78E27EF91319FD2DA386895;
+IL2CPP_EXTERN_C String_t* _stringLiteral1C893EEA6EC24D44076A4BEC82CFEA630E7B64C4;
 IL2CPP_EXTERN_C String_t* _stringLiteral1F574EABBEB535EAAFAE5B5899C5988E6459A36B;
 IL2CPP_EXTERN_C String_t* _stringLiteral2187256911BB65024D0B2089292DB27475101EAD;
+IL2CPP_EXTERN_C String_t* _stringLiteral24C100ABE41528BD6964047F544F1525273EF4F4;
+IL2CPP_EXTERN_C String_t* _stringLiteral2C341183EAA8F3C060A753B834FEFB904D362A18;
 IL2CPP_EXTERN_C String_t* _stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1;
 IL2CPP_EXTERN_C String_t* _stringLiteral37A5D8135526BC4E0CCFD2FA0329E3874C2201D4;
-IL2CPP_EXTERN_C String_t* _stringLiteral38023B7FA59A5FBE2C5DB380679260A92B38A940;
+IL2CPP_EXTERN_C String_t* _stringLiteral387B5C623254286A2F6E5771D212F333C51331EB;
 IL2CPP_EXTERN_C String_t* _stringLiteral3B9723CC7B77BACA8A6DBB984F9B9905D63F6458;
+IL2CPP_EXTERN_C String_t* _stringLiteral4174006F0F90D92595D41332303198B9D20C44E8;
+IL2CPP_EXTERN_C String_t* _stringLiteral43AF242E12D9005A1D020435188BA0E2BA48F826;
 IL2CPP_EXTERN_C String_t* _stringLiteral45EDE4DB19150515241E2FE6610B1490B1DED5C7;
 IL2CPP_EXTERN_C String_t* _stringLiteral47A23BFD06ECFD154AD092ED652B1B4111CD15FC;
+IL2CPP_EXTERN_C String_t* _stringLiteral4A79A0927188304FAC30F1AA68F63CF8AB52F484;
 IL2CPP_EXTERN_C String_t* _stringLiteral549EB7BE5EA14CBA2354D06F11934AE475D20A4B;
-IL2CPP_EXTERN_C String_t* _stringLiteral5626CC06257F56D04E9A1A8016FDF19499D7F8EF;
+IL2CPP_EXTERN_C String_t* _stringLiteral5C4839DC84A69CCAFED01D37B288DAFF4627E942;
 IL2CPP_EXTERN_C String_t* _stringLiteral61225B335304C6BE91EE0EC8CF385BBE9B633F17;
+IL2CPP_EXTERN_C String_t* _stringLiteral62A0AA2F86C287F8D8B609A15B3DAD182DDBAFE8;
+IL2CPP_EXTERN_C String_t* _stringLiteral6551C9CBD52BB4D4338244B385BD512840B8B0FE;
 IL2CPP_EXTERN_C String_t* _stringLiteral6664AB7348FC96D1CAA04033E531563712443DC1;
 IL2CPP_EXTERN_C String_t* _stringLiteral674275389281D614625B096DC89BAD65EBF73073;
 IL2CPP_EXTERN_C String_t* _stringLiteral68E991B5616F5769AB6069C14D3F44D98828C2F9;
 IL2CPP_EXTERN_C String_t* _stringLiteral6B514E260236F16463F3E75F706DCC5449640861;
 IL2CPP_EXTERN_C String_t* _stringLiteral6C066B34F4DB79023C0642AFBC43B25A5327F710;
+IL2CPP_EXTERN_C String_t* _stringLiteral6F1169CDB8666A873CEC0240954E71CDAE158816;
 IL2CPP_EXTERN_C String_t* _stringLiteral72F0863174AB46427AD95CB584B196867C5F4631;
+IL2CPP_EXTERN_C String_t* _stringLiteral785764682AF9B13CFABF4F888FD5A5A0C9D73C4C;
 IL2CPP_EXTERN_C String_t* _stringLiteral788B7C50013DEE4927B3BCA79FDBCD3BFBFCDBBE;
+IL2CPP_EXTERN_C String_t* _stringLiteral78B906A4C6882582353274D3F6311E1DE9EB3601;
 IL2CPP_EXTERN_C String_t* _stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7;
+IL2CPP_EXTERN_C String_t* _stringLiteral8373367F76B2953994218CF04613D3B44249F5F4;
 IL2CPP_EXTERN_C String_t* _stringLiteral8857661405CF541E0D6E7782665624F293ACFB7C;
+IL2CPP_EXTERN_C String_t* _stringLiteral89AED6B73C969154E1B8EBF447CC0EF6FF249757;
 IL2CPP_EXTERN_C String_t* _stringLiteral8DAACFFA237D9117B531E2CA4A2550E6F241BE5A;
+IL2CPP_EXTERN_C String_t* _stringLiteral8EC51B4AA40C70C3ADC207B4A5BE4AAA3A079B5F;
+IL2CPP_EXTERN_C String_t* _stringLiteral9226D294BEC98BD42CC5414ED7E661ECC3E08EB8;
 IL2CPP_EXTERN_C String_t* _stringLiteral926A646AB5A68B4F9CE13C5B42BF00FE91E8C2D9;
 IL2CPP_EXTERN_C String_t* _stringLiteral93717CD8FCD45BAB4F15D3BACC989A6A93BA2674;
+IL2CPP_EXTERN_C String_t* _stringLiteral9743B200E14516E31A9740F849D22A04F219C2E6;
 IL2CPP_EXTERN_C String_t* _stringLiteral98C5356D72A9E7A16EA64C530031DCCA118F1EF0;
 IL2CPP_EXTERN_C String_t* _stringLiteral9F84632196531FA2B3BB0B4225C53CDB837E9393;
 IL2CPP_EXTERN_C String_t* _stringLiteral9FEFD136EF26D7B05E5CCF16376EF651CBFB5E2C;
+IL2CPP_EXTERN_C String_t* _stringLiteralA4043852E1F293EE044001107539705FD89F4E1A;
+IL2CPP_EXTERN_C String_t* _stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152;
 IL2CPP_EXTERN_C String_t* _stringLiteralAA2ACAAC77884477FF705FAA326CAE0ACFAFB316;
+IL2CPP_EXTERN_C String_t* _stringLiteralAAAEB9BE7679DF821CF06B0741CF9B3997F3C78E;
 IL2CPP_EXTERN_C String_t* _stringLiteralAD23F1807EC3F728BA43D64905EBF6D2F2B3660D;
 IL2CPP_EXTERN_C String_t* _stringLiteralAF76631C9924DA21CC9961B508E27EB5D8012412;
 IL2CPP_EXTERN_C String_t* _stringLiteralAFA10D3461D9EB308B1FA1C24F1A406405FADC22;
 IL2CPP_EXTERN_C String_t* _stringLiteralB502A186982A83A6C402B5753C1120061504E6EB;
 IL2CPP_EXTERN_C String_t* _stringLiteralB93F5E13E0AD8E8044D7D80E771F9A55F393D87F;
-IL2CPP_EXTERN_C String_t* _stringLiteralBBE5CA6CCD627817E5570E96811084295B2EDAEA;
+IL2CPP_EXTERN_C String_t* _stringLiteralBFC2910E9A6537B7B3C146EF84A50FB839384BCD;
 IL2CPP_EXTERN_C String_t* _stringLiteralC06692646BD9BBF17F4757969BD8E9928489A89F;
+IL2CPP_EXTERN_C String_t* _stringLiteralC1D1CB17A55A1836775D91D3BE5C2F46071CB1EC;
+IL2CPP_EXTERN_C String_t* _stringLiteralC2D72742B0F711E1AFDDCF81A1E3918DE810133B;
 IL2CPP_EXTERN_C String_t* _stringLiteralC3CB532A154E5F415BD3FE3A7AB01C324BA5F26F;
 IL2CPP_EXTERN_C String_t* _stringLiteralC4735BD77F69C9B610C2166F46D84EE1F993A54B;
 IL2CPP_EXTERN_C String_t* _stringLiteralC5CB235FDF341E57B3A3E3D289810AD3382B4E8B;
 IL2CPP_EXTERN_C String_t* _stringLiteralC63533D7E97B41EB9EC8122A46CB313BA2A0DDC4;
 IL2CPP_EXTERN_C String_t* _stringLiteralCAF8804297181FF007CA835529DD4477CFD94A70;
-IL2CPP_EXTERN_C String_t* _stringLiteralD527AF854D6E45D24A5A8208104EE051E9962653;
+IL2CPP_EXTERN_C String_t* _stringLiteralCB21BE61B6B7B6CBB2C904537C60C314C0CD7B32;
+IL2CPP_EXTERN_C String_t* _stringLiteralCF0FE14DC3D9E7A3A7B1EF8F33ADC6390DAC8BB3;
+IL2CPP_EXTERN_C String_t* _stringLiteralD2B3E88A2997B3462183219496DB2B0E0F4541A0;
 IL2CPP_EXTERN_C String_t* _stringLiteralD5D2875F228D651E1289522AEAAB8C492001C1BE;
 IL2CPP_EXTERN_C String_t* _stringLiteralDB7A9BFF78C9C0A968D57126E27551B76FE4A51B;
+IL2CPP_EXTERN_C String_t* _stringLiteralDDB18591422ED5C5DFBF9339BA918EE13C3C661A;
 IL2CPP_EXTERN_C String_t* _stringLiteralE15D1EB2CF1BFE9C5F4EF62498FC7AFF505B33EA;
-IL2CPP_EXTERN_C String_t* _stringLiteralE561F8C2A51C07B2DDADA39F5822AF8EA89C993C;
 IL2CPP_EXTERN_C String_t* _stringLiteralEFA8386FE947882F9B45A0189D7156FC44D8E918;
+IL2CPP_EXTERN_C String_t* _stringLiteralF0FAADF392931470FE2B66DCAF34E787E3D05589;
+IL2CPP_EXTERN_C String_t* _stringLiteralF4DF70068D5402587C5B2EB4C2A89F59AD9797F8;
 IL2CPP_EXTERN_C String_t* _stringLiteralF783F80E3DFF8402E67C7580F14FFC4E93E8F822;
 IL2CPP_EXTERN_C String_t* _stringLiteralF8BF7D52E3B65314D0391ED69341B8536044187D;
+IL2CPP_EXTERN_C String_t* _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024;
 IL2CPP_EXTERN_C String_t* _stringLiteralFAEFEE0F49D5A3A7657CB9758A7A35957B4FA17D;
 IL2CPP_EXTERN_C String_t* _stringLiteralFDD867C1EBD28806334D16B2AB3020F831E8C5B4;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1_Invoke_m388A267EFB321F37B550A5F4C9B812047DE0DD8E_RuntimeMethod_var;
@@ -5291,6 +5323,24 @@ public:
 };
 
 
+// FMOD.Studio.Bus
+struct Bus_tB5E25ABA15F3E5DB91A09BABE4076CF855D37520 
+{
+public:
+	// System.IntPtr FMOD.Studio.Bus::handle
+	intptr_t ___handle_0;
+
+public:
+	inline static int32_t get_offset_of_handle_0() { return static_cast<int32_t>(offsetof(Bus_tB5E25ABA15F3E5DB91A09BABE4076CF855D37520, ___handle_0)); }
+	inline intptr_t get_handle_0() const { return ___handle_0; }
+	inline intptr_t* get_address_of_handle_0() { return &___handle_0; }
+	inline void set_handle_0(intptr_t value)
+	{
+		___handle_0 = value;
+	}
+};
+
+
 // UnityEngine.UI.ColorBlock
 struct ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 
 {
@@ -5582,6 +5632,24 @@ struct Delegate_t_marshaled_com
 	DelegateData_t17DD30660E330C49381DAA99F934BE75CB11F288 * ___data_9;
 	int32_t ___method_is_virtual_10;
 };
+
+// FMOD.Studio.EventInstance
+struct EventInstance_t77E43F521C3E42A51B553C95F04A518E03B7E2C8 
+{
+public:
+	// System.IntPtr FMOD.Studio.EventInstance::handle
+	intptr_t ___handle_0;
+
+public:
+	inline static int32_t get_offset_of_handle_0() { return static_cast<int32_t>(offsetof(EventInstance_t77E43F521C3E42A51B553C95F04A518E03B7E2C8, ___handle_0)); }
+	inline intptr_t get_handle_0() const { return ___handle_0; }
+	inline intptr_t* get_address_of_handle_0() { return &___handle_0; }
+	inline void set_handle_0(intptr_t value)
+	{
+		___handle_0 = value;
+	}
+};
+
 
 // System.Exception
 struct Exception_t  : public RuntimeObject
@@ -6007,6 +6075,24 @@ struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_marshaled_com
 	intptr_t ___m_CachedPtr_0;
 };
 
+// FMOD.Studio.PLAYBACK_STATE
+struct PLAYBACK_STATE_tBFCC21E0906B94BB868C5A0108B7411F119240A8 
+{
+public:
+	// System.Int32 FMOD.Studio.PLAYBACK_STATE::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(PLAYBACK_STATE_tBFCC21E0906B94BB868C5A0108B7411F119240A8, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // Unity.Profiling.ProfilerMarker
 struct ProfilerMarker_tAE86534C80C5D67768DB3B244D8D139A2E6495E1 
 {
@@ -6034,6 +6120,24 @@ public:
 
 public:
 	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(QuestState_t40D379440675E9101635293B89F6E48A1A99C0BC, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// FMOD.RESULT
+struct RESULT_t25BE0876E69B44E7D72DC4C52217E7C5B1A82271 
+{
+public:
+	// System.Int32 FMOD.RESULT::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(RESULT_t25BE0876E69B44E7D72DC4C52217E7C5B1A82271, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -9941,6 +10045,15 @@ public:
 };
 
 
+// ActivateButton
+struct ActivateButton_t90E7E5153F485D22DF539F868C2416D0E0227C60  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+
+public:
+};
+
+
 // GestureRecognizer.DrawDetector
 struct DrawDetector_t6FE4DCB524286F1FC90FBB4D66C17549EF07E512  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
@@ -10456,6 +10569,64 @@ struct UIBehaviour_tD1C6E2D542222546D68510ECE74036EFBC3C3B0E  : public MonoBehav
 public:
 
 public:
+};
+
+
+// VolumeControlScript
+struct VolumeControlScript_t7D9B061E82460F6531ABC37D6205918F3C59836F  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+	// FMOD.Studio.EventInstance VolumeControlScript::fmodEvent
+	EventInstance_t77E43F521C3E42A51B553C95F04A518E03B7E2C8  ___fmodEvent_4;
+	// FMOD.Studio.Bus VolumeControlScript::music
+	Bus_tB5E25ABA15F3E5DB91A09BABE4076CF855D37520  ___music_5;
+	// FMOD.Studio.Bus VolumeControlScript::SFX
+	Bus_tB5E25ABA15F3E5DB91A09BABE4076CF855D37520  ___SFX_6;
+	// System.Single VolumeControlScript::MusicVolume
+	float ___MusicVolume_7;
+	// System.Single VolumeControlScript::SFXVolume
+	float ___SFXVolume_8;
+
+public:
+	inline static int32_t get_offset_of_fmodEvent_4() { return static_cast<int32_t>(offsetof(VolumeControlScript_t7D9B061E82460F6531ABC37D6205918F3C59836F, ___fmodEvent_4)); }
+	inline EventInstance_t77E43F521C3E42A51B553C95F04A518E03B7E2C8  get_fmodEvent_4() const { return ___fmodEvent_4; }
+	inline EventInstance_t77E43F521C3E42A51B553C95F04A518E03B7E2C8 * get_address_of_fmodEvent_4() { return &___fmodEvent_4; }
+	inline void set_fmodEvent_4(EventInstance_t77E43F521C3E42A51B553C95F04A518E03B7E2C8  value)
+	{
+		___fmodEvent_4 = value;
+	}
+
+	inline static int32_t get_offset_of_music_5() { return static_cast<int32_t>(offsetof(VolumeControlScript_t7D9B061E82460F6531ABC37D6205918F3C59836F, ___music_5)); }
+	inline Bus_tB5E25ABA15F3E5DB91A09BABE4076CF855D37520  get_music_5() const { return ___music_5; }
+	inline Bus_tB5E25ABA15F3E5DB91A09BABE4076CF855D37520 * get_address_of_music_5() { return &___music_5; }
+	inline void set_music_5(Bus_tB5E25ABA15F3E5DB91A09BABE4076CF855D37520  value)
+	{
+		___music_5 = value;
+	}
+
+	inline static int32_t get_offset_of_SFX_6() { return static_cast<int32_t>(offsetof(VolumeControlScript_t7D9B061E82460F6531ABC37D6205918F3C59836F, ___SFX_6)); }
+	inline Bus_tB5E25ABA15F3E5DB91A09BABE4076CF855D37520  get_SFX_6() const { return ___SFX_6; }
+	inline Bus_tB5E25ABA15F3E5DB91A09BABE4076CF855D37520 * get_address_of_SFX_6() { return &___SFX_6; }
+	inline void set_SFX_6(Bus_tB5E25ABA15F3E5DB91A09BABE4076CF855D37520  value)
+	{
+		___SFX_6 = value;
+	}
+
+	inline static int32_t get_offset_of_MusicVolume_7() { return static_cast<int32_t>(offsetof(VolumeControlScript_t7D9B061E82460F6531ABC37D6205918F3C59836F, ___MusicVolume_7)); }
+	inline float get_MusicVolume_7() const { return ___MusicVolume_7; }
+	inline float* get_address_of_MusicVolume_7() { return &___MusicVolume_7; }
+	inline void set_MusicVolume_7(float value)
+	{
+		___MusicVolume_7 = value;
+	}
+
+	inline static int32_t get_offset_of_SFXVolume_8() { return static_cast<int32_t>(offsetof(VolumeControlScript_t7D9B061E82460F6531ABC37D6205918F3C59836F, ___SFXVolume_8)); }
+	inline float get_SFXVolume_8() const { return ___SFXVolume_8; }
+	inline float* get_address_of_SFXVolume_8() { return &___SFXVolume_8; }
+	inline void set_SFXVolume_8(float value)
+	{
+		___SFXVolume_8 = value;
+	}
 };
 
 
@@ -14747,6 +14918,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_set_Item_m85EC6079AE402A592416119
 // System.Void System.Action`1<System.Object>::Invoke(!0)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_m587509C88BB83721D7918D89DF07606BB752D744_gshared (Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC * __this, RuntimeObject * ___obj0, const RuntimeMethod* method);
 
+// System.Void ActivateButton::Activate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActivateButton_Activate_m936E689611590B1B19D891543CAD4348BC933886 (ActivateButton_t90E7E5153F485D22DF539F868C2416D0E0227C60 * __this, const RuntimeMethod* method);
+// PixelCrushers.DialogueSystem.QuestState PixelCrushers.DialogueSystem.QuestLog::GetQuestState(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t QuestLog_GetQuestState_m0EA384188A003A24A756F9F392A340BE236EE533 (String_t* ___questName0, const RuntimeMethod* method);
+// UnityEngine.GameObject UnityEngine.Component::get_gameObject()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 * __this, const RuntimeMethod* method);
+// System.Void UnityEngine.GameObject::SetActive(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86 (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, bool ___value0, const RuntimeMethod* method);
+// System.Void UnityEngine.MonoBehaviour::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED (MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A * __this, const RuntimeMethod* method);
 // System.Int32 UnityEngine.Mathf::Clamp(System.Int32,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_mAD0781EB7470594CD4482DD64A0D739E4E539C3C (int32_t ___value0, int32_t ___min1, int32_t ___max2, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<GestureRecognizer.UILineRenderer>::.ctor()
@@ -14867,8 +15048,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnEndDragCoroutineU3Ed__28__ctor_m8F1065C80A79C574D30DBF3D5DE84283AA2A4E46 (U3COnEndDragCoroutineU3Ed__28_t62D1C57CB7E38FFA0CEEE8A2903CAFA6FB8D3FE8 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method);
 // System.Void GestureRecognizer.GestureData::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureData__ctor_m3A285CB89DBBDB6542B7FBD0DF616102B49F05CE (GestureData_tD07B8AA7EFB676878A397EB2762F813E70FA4762 * __this, const RuntimeMethod* method);
-// System.Void UnityEngine.MonoBehaviour::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED (MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A * __this, const RuntimeMethod* method);
 // UnityEngine.Vector2 GestureRecognizer.DrawDetector::RealToLine(UnityEngine.Vector2)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  DrawDetector_RealToLine_m7F484585812055443D9A42724AAFA1F40612087D (DrawDetector_t6FE4DCB524286F1FC90FBB4D66C17549EF07E512 * __this, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  ___position0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<GestureRecognizer.GestureLine>::.ctor()
@@ -14967,30 +15146,30 @@ inline GesturePatternDrawU5BU5D_t243B4BABE8FD51DBFA391D8E89F4C16B53B22132* Compo
 {
 	return ((  GesturePatternDrawU5BU5D_t243B4BABE8FD51DBFA391D8E89F4C16B53B22132* (*) (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 *, const RuntimeMethod*))Component_GetComponentsInChildren_TisRuntimeObject_mCA5B356D4B0824C6DE60A8E90E6A6D4188C56C2F_gshared)(__this, method);
 }
+// PixelCrushers.DialogueSystem.Lua/Result PixelCrushers.DialogueSystem.DialogueLua::GetVariable(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28 (String_t* ___variable0, const RuntimeMethod* method);
+// System.Boolean PixelCrushers.DialogueSystem.Lua/Result::get_asBool()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464 (Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 * __this, const RuntimeMethod* method);
+// System.String System.Boolean::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Boolean_ToString_m59BB8456DD05A874BBD756E57EA8AD983287015C (bool* __this, const RuntimeMethod* method);
 // System.Single GestureRecognizer.Score::get_score()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Score_get_score_m12ED49B15CA402533956CCF97D1E88CF5C725C48 (Score_t7F4763921B97B878D08CF3473DCBF4CBAAA5029E * __this, const RuntimeMethod* method);
 // System.Int32 UnityEngine.Mathf::RoundToInt(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Mathf_RoundToInt_m56850BDF60FF9E3441CE57E5EFEFEF36EDCDE6DD (float ___f0, const RuntimeMethod* method);
 // System.String System.Int32::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411 (int32_t* __this, const RuntimeMethod* method);
-// PixelCrushers.DialogueSystem.Lua/Result PixelCrushers.DialogueSystem.DialogueLua::GetVariable(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28 (String_t* ___variable0, const RuntimeMethod* method);
 // System.Int32 PixelCrushers.DialogueSystem.Lua/Result::get_asInt()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Result_get_asInt_mAAE38484F147DFC16D8BB4D8B329F52FBFCB7C73 (Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 * __this, const RuntimeMethod* method);
 // System.Void PixelCrushers.DialogueSystem.DialogueLua::SetVariable(System.String,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D (String_t* ___variable0, RuntimeObject * ___value1, const RuntimeMethod* method);
 // System.Boolean System.String::op_Equality(System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method);
-// System.Boolean PixelCrushers.DialogueSystem.Lua/Result::get_asBool()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464 (Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 * __this, const RuntimeMethod* method);
-// PixelCrushers.DialogueSystem.QuestState PixelCrushers.DialogueSystem.QuestLog::GetQuestState(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t QuestLog_GetQuestState_m0EA384188A003A24A756F9F392A340BE236EE533 (String_t* ___questName0, const RuntimeMethod* method);
-// System.Void UnityEngine.GameObject::SetActive(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86 (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, bool ___value0, const RuntimeMethod* method);
 // System.Void PixelCrushers.DialogueSystem.DialogueManager::ShowAlert(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DialogueManager_ShowAlert_mFC0BA189182873DAE31D79C56E0597482C54D48F (String_t* ___message0, const RuntimeMethod* method);
 // System.String System.String::Concat(System.String,System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m89EAB4C6A96B0E5C3F87300D6BE78D386B9EFC44 (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method);
+// System.Void PixelCrushers.DialogueSystem.QuestLog::SetQuestState(System.String,PixelCrushers.DialogueSystem.QuestState)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuestLog_SetQuestState_m357D6A51D846CB50B1303A19CED80210E6AF42DC (String_t* ___questName0, int32_t ___state1, const RuntimeMethod* method);
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.Animator>()
 inline Animator_t9DD1D43680A61D65A3C98C6EFF559709DC9CE149 * Component_GetComponent_TisAnimator_t9DD1D43680A61D65A3C98C6EFF559709DC9CE149_m56C584BE9A3B866D54FAEE0529E28C8D1E57989F (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 * __this, const RuntimeMethod* method)
 {
@@ -15012,16 +15191,10 @@ inline Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  InputValue_Get_TisVect
 {
 	return ((  Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  (*) (InputValue_tE8202DB53B8AF57D77D883BEB31D2801CBF20E2D *, const RuntimeMethod*))InputValue_Get_TisVector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9_mFB21C5C839A2974F31F46066906360F8975F69F7_gshared)(__this, method);
 }
-// System.String System.Single::ToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_m80E7ABED4F4D73F2BE19DDB80D3D92FCD8DFA010 (float* __this, const RuntimeMethod* method);
-// System.String System.String::Concat(System.String,System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m37A5BF26F8F8F1892D60D727303B23FB604FEE78 (String_t* ___str00, String_t* ___str11, String_t* ___str22, String_t* ___str33, const RuntimeMethod* method);
 // System.Void UnityEngine.Animator::SetBool(System.String,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetBool_m34E2E9785A47A3AE94E804004425C333C36CCD43 (Animator_t9DD1D43680A61D65A3C98C6EFF559709DC9CE149 * __this, String_t* ___name0, bool ___value1, const RuntimeMethod* method);
 // System.Void PlayerController::PlayerMove()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_PlayerMove_m43C108D8FED1F1B81F90EA89108BD7CCB817B08A (PlayerController_tDFE946D0FE1CB988FC3DC902E05737A2A62CA3D9 * __this, const RuntimeMethod* method);
-// System.String UnityEngine.Vector2::ToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Vector2_ToString_mBD48EFCDB703ACCDC29E86AEB0D4D62FBA50F840 (Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.Vector2::Set(System.Single,System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2_Set_m2F786894751240F383C2F9B102000BD00C527AB6_inline (Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 * __this, float ___newX0, float ___newY1, const RuntimeMethod* method);
 // System.Single UnityEngine.Time::get_deltaTime()
@@ -15497,8 +15670,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rect__ctor_m12075526A02B55B680716A34AD5287B223122B70 (Rect_t7D9187DB6339DBA5741C09B6CCEF2F54F1966878 * __this, float ___x0, float ___y1, float ___width2, float ___height3, const RuntimeMethod* method);
 // System.Void UnityEngine.UI.MaskableGraphic::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaskableGraphic__ctor_m89126DB114322D1D18F67BA3B8D0695FF1371A4D (MaskableGraphic_t0DB59E37E3C8AD2F5A4FB7FB091630CB21370CCE * __this, const RuntimeMethod* method);
-// UnityEngine.GameObject UnityEngine.Component::get_gameObject()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 * __this, const RuntimeMethod* method);
+// FMOD.Studio.Bus FMODUnity.RuntimeManager::GetBus(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Bus_tB5E25ABA15F3E5DB91A09BABE4076CF855D37520  RuntimeManager_GetBus_mD661704E5CB5D13745F09E55F1105F3B8B0AA991 (String_t* ___path0, const RuntimeMethod* method);
+// FMOD.Studio.EventInstance FMODUnity.RuntimeManager::CreateInstance(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EventInstance_t77E43F521C3E42A51B553C95F04A518E03B7E2C8  RuntimeManager_CreateInstance_m4805089829352CB7A5CF1B056ED889CA1E17FAA7 (String_t* ___path0, const RuntimeMethod* method);
+// FMOD.RESULT FMOD.Studio.Bus::setVolume(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Bus_setVolume_m4A14CBD2661706AB950AF60B8210181CAB1A8EB5 (Bus_tB5E25ABA15F3E5DB91A09BABE4076CF855D37520 * __this, float ___volume0, const RuntimeMethod* method);
+// FMOD.RESULT FMOD.Studio.EventInstance::getPlaybackState(FMOD.Studio.PLAYBACK_STATE&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EventInstance_getPlaybackState_mA1F9D7BB93F9A9BBA0EC2763A9476E1DE3B8A72C (EventInstance_t77E43F521C3E42A51B553C95F04A518E03B7E2C8 * __this, int32_t* ___state0, const RuntimeMethod* method);
+// FMOD.RESULT FMOD.Studio.EventInstance::start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t EventInstance_start_mE3EA9B9B0606815C7FB674F0CC2D6A3BBA2A9141 (EventInstance_t77E43F521C3E42A51B553C95F04A518E03B7E2C8 * __this, const RuntimeMethod* method);
 // System.Int32 UnityEngine.Input::get_touchCount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Input_get_touchCount_mE1A06AB1973E3456AE398B3CC5105F27CC7335D6 (const RuntimeMethod* method);
 // GestureRecognizer.RecognitionResult GestureRecognizer.Recognizer::Recognize(GestureRecognizer.GestureData,System.Boolean)
@@ -15649,6 +15830,65 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThrowHelper_ThrowArgumentOutOfRangeExcep
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void ActivateButton::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActivateButton_Start_m59B14723A3FF7BA043577DC57B70D833A524E0F7 (ActivateButton_t90E7E5153F485D22DF539F868C2416D0E0227C60 * __this, const RuntimeMethod* method)
+{
+	{
+		// Activate();
+		ActivateButton_Activate_m936E689611590B1B19D891543CAD4348BC933886(__this, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void ActivateButton::Activate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActivateButton_Activate_m936E689611590B1B19D891543CAD4348BC933886 (ActivateButton_t90E7E5153F485D22DF539F868C2416D0E0227C60 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&QuestLog_tCDF5B6051280AA6261E959389A1EEAD389A8D067_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0D3B90A26D891987290BAA0B332B0DBAF0170AC2);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (QuestLog.GetQuestState("quest_Hon") != QuestState.Unassigned)
+		IL2CPP_RUNTIME_CLASS_INIT(QuestLog_tCDF5B6051280AA6261E959389A1EEAD389A8D067_il2cpp_TypeInfo_var);
+		int32_t L_0;
+		L_0 = QuestLog_GetQuestState_m0EA384188A003A24A756F9F392A340BE236EE533(_stringLiteral0D3B90A26D891987290BAA0B332B0DBAF0170AC2, /*hidden argument*/NULL);
+		if ((((int32_t)L_0) == ((int32_t)1)))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		// gameObject.SetActive(true);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_1;
+		L_1 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_1, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_0019:
+	{
+		// }
+		return;
+	}
+}
+// System.Void ActivateButton::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActivateButton__ctor_mA0A3E44516CA59EC262CAEB1870112052F884B0B (ActivateButton_t90E7E5153F485D22DF539F868C2416D0E0227C60 * __this, const RuntimeMethod* method)
+{
+	{
+		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -16967,14 +17207,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenu_NewGame_m44EF35E81F461BBDEABEC5
 		return;
 	}
 }
-// System.Void MainMenu::ContinueGame()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenu_ContinueGame_m2880CC62D7ACF3AAE25AD20F1BD2C043E162BD2B (MainMenu_tEB11F5A993C42E93B585FBB65C9E92EC91C5707C * __this, const RuntimeMethod* method)
-{
-	{
-		// }
-		return;
-	}
-}
 // System.Void MainMenu::EndGame()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenu_EndGame_m65CC5604E2D43800CD4CE57866E6460BA2B11324 (MainMenu_tEB11F5A993C42E93B585FBB65C9E92EC91C5707C * __this, const RuntimeMethod* method)
 {
@@ -17029,17 +17261,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MyGestureHandler_OnRecognize_m89E77AFB9C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&QuestLog_tCDF5B6051280AA6261E959389A1EEAD389A8D067_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral387B5C623254286A2F6E5771D212F333C51331EB);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5C4839DC84A69CCAFED01D37B288DAFF4627E942);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6C066B34F4DB79023C0642AFBC43B25A5327F710);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral785764682AF9B13CFABF4F888FD5A5A0C9D73C4C);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8857661405CF541E0D6E7782665624F293ACFB7C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC2D72742B0F711E1AFDDCF81A1E3918DE810133B);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC4735BD77F69C9B610C2166F46D84EE1F993A54B);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDB7A9BFF78C9C0A968D57126E27551B76FE4A51B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024);
 		s_Il2CppMethodInitialized = true;
 	}
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  V_2;
-	memset((&V_2), 0, sizeof(V_2));
+	bool V_0 = false;
+	Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
 	{
 		// if (result != RecognitionResult.Empty) {
 		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_0 = ___result0;
@@ -17048,7 +17288,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MyGestureHandler_OnRecognize_m89E77AFB9C
 		L_1 = RecognitionResult_get_Empty_m2F95E2DCB6850B2F337D620E687E20710D205286_inline(/*hidden argument*/NULL);
 		if ((((RuntimeObject*)(RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 *)L_0) == ((RuntimeObject*)(RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 *)L_1)))
 		{
-			goto IL_008b;
+			goto IL_01c7;
 		}
 	}
 	{
@@ -17058,48 +17298,185 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MyGestureHandler_OnRecognize_m89E77AFB9C
 		// cachedResult = result;
 		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_2 = ___result0;
 		__this->set_cachedResult_10(L_2);
+		// bool KnowsKanji = DialogueLua.GetVariable("wrote" + result.gesture.id).asBool;
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_3 = ___result0;
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_4 = L_3->get_gesture_0();
+		String_t* L_5 = L_4->get_id_4();
+		String_t* L_6;
+		L_6 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral785764682AF9B13CFABF4F888FD5A5A0C9D73C4C, L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_7;
+		L_7 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
+		bool L_8;
+		L_8 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		V_0 = L_8;
+		// Debug.Log("Knows Kanji:" + KnowsKanji);
+		String_t* L_9;
+		L_9 = Boolean_ToString_m59BB8456DD05A874BBD756E57EA8AD983287015C((bool*)(&V_0), /*hidden argument*/NULL);
+		String_t* L_10;
+		L_10 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral5C4839DC84A69CCAFED01D37B288DAFF4627E942, L_9, /*hidden argument*/NULL);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_10, /*hidden argument*/NULL);
+		// Debug.Log("wrote" + result.gesture.id);
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_11 = ___result0;
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_12 = L_11->get_gesture_0();
+		String_t* L_13 = L_12->get_id_4();
+		String_t* L_14;
+		L_14 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral785764682AF9B13CFABF4F888FD5A5A0C9D73C4C, L_13, /*hidden argument*/NULL);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_14, /*hidden argument*/NULL);
+		// if (KnowsKanji == true || QuestLog.GetQuestState("quest_" + result.gesture.id) != QuestState.Unassigned)
+		bool L_15 = V_0;
+		if (L_15)
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_16 = ___result0;
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_17 = L_16->get_gesture_0();
+		String_t* L_18 = L_17->get_id_4();
+		String_t* L_19;
+		L_19 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral387B5C623254286A2F6E5771D212F333C51331EB, L_18, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(QuestLog_tCDF5B6051280AA6261E959389A1EEAD389A8D067_il2cpp_TypeInfo_var);
+		int32_t L_20;
+		L_20 = QuestLog_GetQuestState_m0EA384188A003A24A756F9F392A340BE236EE533(L_19, /*hidden argument*/NULL);
+		if ((((int32_t)L_20) == ((int32_t)1)))
+		{
+			goto IL_00fe;
+		}
+	}
+
+IL_008f:
+	{
 		// textResult.text = result.gesture.id;
-		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_3 = __this->get_textResult_4();
-		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_4 = ___result0;
-		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_5 = L_4->get_gesture_0();
-		String_t* L_6 = L_5->get_id_4();
-		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_3, L_6);
+		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_21 = __this->get_textResult_4();
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_22 = ___result0;
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_23 = L_22->get_gesture_0();
+		String_t* L_24 = L_23->get_id_4();
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_21, L_24);
 		// score.text = Mathf.RoundToInt(result.score.score * 100) + "%";
-		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_7 = __this->get_score_5();
-		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_8 = ___result0;
-		Score_t7F4763921B97B878D08CF3473DCBF4CBAAA5029E * L_9 = L_8->get_address_of_score_1();
-		float L_10;
-		L_10 = Score_get_score_m12ED49B15CA402533956CCF97D1E88CF5C725C48((Score_t7F4763921B97B878D08CF3473DCBF4CBAAA5029E *)L_9, /*hidden argument*/NULL);
-		int32_t L_11;
-		L_11 = Mathf_RoundToInt_m56850BDF60FF9E3441CE57E5EFEFEF36EDCDE6DD(((float)il2cpp_codegen_multiply((float)L_10, (float)(100.0f))), /*hidden argument*/NULL);
-		V_1 = L_11;
-		String_t* L_12;
-		L_12 = Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411((int32_t*)(&V_1), /*hidden argument*/NULL);
-		String_t* L_13;
-		L_13 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_12, _stringLiteral6C066B34F4DB79023C0642AFBC43B25A5327F710, /*hidden argument*/NULL);
-		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_7, L_13);
+		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_25 = __this->get_score_5();
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_26 = ___result0;
+		Score_t7F4763921B97B878D08CF3473DCBF4CBAAA5029E * L_27 = L_26->get_address_of_score_1();
+		float L_28;
+		L_28 = Score_get_score_m12ED49B15CA402533956CCF97D1E88CF5C725C48((Score_t7F4763921B97B878D08CF3473DCBF4CBAAA5029E *)L_27, /*hidden argument*/NULL);
+		int32_t L_29;
+		L_29 = Mathf_RoundToInt_m56850BDF60FF9E3441CE57E5EFEFEF36EDCDE6DD(((float)il2cpp_codegen_multiply((float)L_28, (float)(100.0f))), /*hidden argument*/NULL);
+		V_3 = L_29;
+		String_t* L_30;
+		L_30 = Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411((int32_t*)(&V_3), /*hidden argument*/NULL);
+		String_t* L_31;
+		L_31 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_30, _stringLiteral6C066B34F4DB79023C0642AFBC43B25A5327F710, /*hidden argument*/NULL);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_25, L_31);
 		// int oldKanjiValue = DialogueLua.GetVariable("TotalNumberOfKanjisWritten").asInt;
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
-		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_14;
-		L_14 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteral8857661405CF541E0D6E7782665624F293ACFB7C, /*hidden argument*/NULL);
-		V_2 = L_14;
-		int32_t L_15;
-		L_15 = Result_get_asInt_mAAE38484F147DFC16D8BB4D8B329F52FBFCB7C73((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_2), /*hidden argument*/NULL);
-		V_0 = L_15;
-		// DialogueLua.SetVariable("TotalNumberOfKanjisWritten", oldKanjiValue+1);
-		int32_t L_16 = V_0;
-		int32_t L_17 = ((int32_t)il2cpp_codegen_add((int32_t)L_16, (int32_t)1));
-		RuntimeObject * L_18 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_17);
-		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteral8857661405CF541E0D6E7782665624F293ACFB7C, L_18, /*hidden argument*/NULL);
-		// } else {
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_32;
+		L_32 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteral8857661405CF541E0D6E7782665624F293ACFB7C, /*hidden argument*/NULL);
+		V_1 = L_32;
+		int32_t L_33;
+		L_33 = Result_get_asInt_mAAE38484F147DFC16D8BB4D8B329F52FBFCB7C73((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		V_2 = L_33;
+		// DialogueLua.SetVariable("TotalNumberOfKanjisWritten", oldKanjiValue + 1);
+		int32_t L_34 = V_2;
+		int32_t L_35 = ((int32_t)il2cpp_codegen_add((int32_t)L_34, (int32_t)1));
+		RuntimeObject * L_36 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_35);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteral8857661405CF541E0D6E7782665624F293ACFB7C, L_36, /*hidden argument*/NULL);
+		// }
 		return;
 	}
 
-IL_008b:
+IL_00fe:
+	{
+		// else if (QuestLog.GetQuestState("quest_Numbers") == QuestState.Active)
+		IL2CPP_RUNTIME_CLASS_INIT(QuestLog_tCDF5B6051280AA6261E959389A1EEAD389A8D067_il2cpp_TypeInfo_var);
+		int32_t L_37;
+		L_37 = QuestLog_GetQuestState_m0EA384188A003A24A756F9F392A340BE236EE533(_stringLiteralC2D72742B0F711E1AFDDCF81A1E3918DE810133B, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_37) == ((uint32_t)2))))
+		{
+			goto IL_01a6;
+		}
+	}
+	{
+		// bool LearnedResult = DialogueLua.GetVariable("wrote" + result.gesture.id).asBool;
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_38 = ___result0;
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_39 = L_38->get_gesture_0();
+		String_t* L_40 = L_39->get_id_4();
+		String_t* L_41;
+		L_41 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral785764682AF9B13CFABF4F888FD5A5A0C9D73C4C, L_40, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_42;
+		L_42 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(L_41, /*hidden argument*/NULL);
+		V_1 = L_42;
+		bool L_43;
+		L_43 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		// if (LearnedResult == false)
+		if (L_43)
+		{
+			goto IL_01e7;
+		}
+	}
+	{
+		// textResult.text = result.gesture.id;
+		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_44 = __this->get_textResult_4();
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_45 = ___result0;
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_46 = L_45->get_gesture_0();
+		String_t* L_47 = L_46->get_id_4();
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_44, L_47);
+		// score.text = Mathf.RoundToInt(result.score.score * 100) + "%";
+		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_48 = __this->get_score_5();
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_49 = ___result0;
+		Score_t7F4763921B97B878D08CF3473DCBF4CBAAA5029E * L_50 = L_49->get_address_of_score_1();
+		float L_51;
+		L_51 = Score_get_score_m12ED49B15CA402533956CCF97D1E88CF5C725C48((Score_t7F4763921B97B878D08CF3473DCBF4CBAAA5029E *)L_50, /*hidden argument*/NULL);
+		int32_t L_52;
+		L_52 = Mathf_RoundToInt_m56850BDF60FF9E3441CE57E5EFEFEF36EDCDE6DD(((float)il2cpp_codegen_multiply((float)L_51, (float)(100.0f))), /*hidden argument*/NULL);
+		V_3 = L_52;
+		String_t* L_53;
+		L_53 = Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411((int32_t*)(&V_3), /*hidden argument*/NULL);
+		String_t* L_54;
+		L_54 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_53, _stringLiteral6C066B34F4DB79023C0642AFBC43B25A5327F710, /*hidden argument*/NULL);
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_48, L_54);
+		// int oldKanjiValue = DialogueLua.GetVariable("TotalNumberOfKanjisWritten").asInt;
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_55;
+		L_55 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteral8857661405CF541E0D6E7782665624F293ACFB7C, /*hidden argument*/NULL);
+		V_1 = L_55;
+		int32_t L_56;
+		L_56 = Result_get_asInt_mAAE38484F147DFC16D8BB4D8B329F52FBFCB7C73((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		V_4 = L_56;
+		// DialogueLua.SetVariable("TotalNumberOfKanjisWritten", oldKanjiValue + 1);
+		int32_t L_57 = V_4;
+		int32_t L_58 = ((int32_t)il2cpp_codegen_add((int32_t)L_57, (int32_t)1));
+		RuntimeObject * L_59 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_58);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteral8857661405CF541E0D6E7782665624F293ACFB7C, L_59, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+
+IL_01a6:
 	{
 		// textResult.text = "Try again";
-		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_19 = __this->get_textResult_4();
-		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_19, _stringLiteralC4735BD77F69C9B610C2166F46D84EE1F993A54B);
+		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_60 = __this->get_textResult_4();
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_60, _stringLiteralC4735BD77F69C9B610C2166F46D84EE1F993A54B);
+		// score.text = "0";
+		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_61 = __this->get_score_5();
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_61, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024);
+		// }
+		return;
+	}
+
+IL_01c7:
+	{
+		// textResult.text = "Try again";
+		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_62 = __this->get_textResult_4();
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_62, _stringLiteralC4735BD77F69C9B610C2166F46D84EE1F993A54B);
+		// score.text = "0";
+		TMP_Text_t86179C97C713E1A6B3751B48DC7A16C874A7B262 * L_63 = __this->get_score_5();
+		VirtActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_63, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024);
+	}
+
+IL_01e7:
+	{
 		// }
 		return;
 	}
@@ -17114,20 +17491,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MyGestureHandler_KanjiCheck_m7EE093471D8
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DialogueManager_tF108E2158D24D5420D4E228EE86D4DBB57F82559_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&QuestLog_tCDF5B6051280AA6261E959389A1EEAD389A8D067_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral097759F39246EF86E9D27F51B360064465FC92DF);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0AF63936C56009D8551D4E661B87EF5673ACA95B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral09D3D4DD84B2BDA2566871186B28A0315DB8655F);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0D3B90A26D891987290BAA0B332B0DBAF0170AC2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13B7B067733C9DE4BA47F52C6B4BE81BF920A98C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1C893EEA6EC24D44076A4BEC82CFEA630E7B64C4);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1F574EABBEB535EAAFAE5B5899C5988E6459A36B);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2187256911BB65024D0B2089292DB27475101EAD);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral24C100ABE41528BD6964047F544F1525273EF4F4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2C341183EAA8F3C060A753B834FEFB904D362A18);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4174006F0F90D92595D41332303198B9D20C44E8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral43AF242E12D9005A1D020435188BA0E2BA48F826);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4A79A0927188304FAC30F1AA68F63CF8AB52F484);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral549EB7BE5EA14CBA2354D06F11934AE475D20A4B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral62A0AA2F86C287F8D8B609A15B3DAD182DDBAFE8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6551C9CBD52BB4D4338244B385BD512840B8B0FE);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral674275389281D614625B096DC89BAD65EBF73073);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6F1169CDB8666A873CEC0240954E71CDAE158816);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral788B7C50013DEE4927B3BCA79FDBCD3BFBFCDBBE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral78B906A4C6882582353274D3F6311E1DE9EB3601);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral89AED6B73C969154E1B8EBF447CC0EF6FF249757);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8EC51B4AA40C70C3ADC207B4A5BE4AAA3A079B5F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9226D294BEC98BD42CC5414ED7E661ECC3E08EB8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9743B200E14516E31A9740F849D22A04F219C2E6);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral98C5356D72A9E7A16EA64C530031DCCA118F1EF0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA4043852E1F293EE044001107539705FD89F4E1A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAAAEB9BE7679DF821CF06B0741CF9B3997F3C78E);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAFA10D3461D9EB308B1FA1C24F1A406405FADC22);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC06692646BD9BBF17F4757969BD8E9928489A89F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC1D1CB17A55A1836775D91D3BE5C2F46071CB1EC);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC2D72742B0F711E1AFDDCF81A1E3918DE810133B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCB21BE61B6B7B6CBB2C904537C60C314C0CD7B32);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCF0FE14DC3D9E7A3A7B1EF8F33ADC6390DAC8BB3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDDB18591422ED5C5DFBF9339BA918EE13C3C661A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEFA8386FE947882F9B45A0189D7156FC44D8E918);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF0FAADF392931470FE2B66DCAF34E787E3D05589);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF4DF70068D5402587C5B2EB4C2A89F59AD9797F8);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF783F80E3DFF8402E67C7580F14FFC4E93E8F822);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF8BF7D52E3B65314D0391ED69341B8536044187D);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFAEFEE0F49D5A3A7657CB9758A7A35957B4FA17D);
@@ -17136,6 +17539,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MyGestureHandler_KanjiCheck_m7EE093471D8
 	bool V_0 = false;
 	Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	int32_t V_12 = 0;
 	{
 		// if (cachedResult.gesture.id == "Hon")
 		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_0 = __this->get_cachedResult_10();
@@ -17145,7 +17559,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MyGestureHandler_KanjiCheck_m7EE093471D8
 		L_3 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_2, _stringLiteralAFA10D3461D9EB308B1FA1C24F1A406405FADC22, /*hidden argument*/NULL);
 		if (!L_3)
 		{
-			goto IL_009f;
+			goto IL_00d1;
 		}
 	}
 	{
@@ -17163,7 +17577,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MyGestureHandler_KanjiCheck_m7EE093471D8
 		L_6 = QuestLog_GetQuestState_m0EA384188A003A24A756F9F392A340BE236EE533(_stringLiteral0D3B90A26D891987290BAA0B332B0DBAF0170AC2, /*hidden argument*/NULL);
 		if ((((int32_t)L_6) == ((int32_t)1)))
 		{
-			goto IL_009f;
+			goto IL_00d1;
 		}
 	}
 	{
@@ -17171,7 +17585,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MyGestureHandler_KanjiCheck_m7EE093471D8
 		bool L_7 = V_0;
 		if (L_7)
 		{
-			goto IL_0068;
+			goto IL_009a;
 		}
 	}
 	{
@@ -17183,69 +17597,83 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MyGestureHandler_KanjiCheck_m7EE093471D8
 		// JishoButton.SetActive(true);
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_10 = __this->get_JishoButton_8();
 		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_10, (bool)1, /*hidden argument*/NULL);
-		// DialogueManager.ShowAlert("You have learned a new Kanji! GG!");
+		// DialogueManager.ShowAlert("Congratulation! You have learned the Kanji Hon. That means book.");
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueManager_tF108E2158D24D5420D4E228EE86D4DBB57F82559_il2cpp_TypeInfo_var);
-		DialogueManager_ShowAlert_mFC0BA189182873DAE31D79C56E0597482C54D48F(_stringLiteral0AF63936C56009D8551D4E661B87EF5673ACA95B, /*hidden argument*/NULL);
+		DialogueManager_ShowAlert_mFC0BA189182873DAE31D79C56E0597482C54D48F(_stringLiteralCF0FE14DC3D9E7A3A7B1EF8F33ADC6390DAC8BB3, /*hidden argument*/NULL);
+		// DialogueManager.ShowAlert("Writting this Kanji made a book appeared out of nowhere!! That's crazy!!!");
+		DialogueManager_ShowAlert_mFC0BA189182873DAE31D79C56E0597482C54D48F(_stringLiteralC1D1CB17A55A1836775D91D3BE5C2F46071CB1EC, /*hidden argument*/NULL);
+		// int kanjisFound = DialogueLua.GetVariable("KanjisFound").asInt;
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_11;
+		L_11 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, /*hidden argument*/NULL);
+		V_1 = L_11;
+		int32_t L_12;
+		L_12 = Result_get_asInt_mAAE38484F147DFC16D8BB4D8B329F52FBFCB7C73((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		V_2 = L_12;
+		// DialogueLua.SetVariable("KanjisFound", kanjisFound + 1);
+		int32_t L_13 = V_2;
+		int32_t L_14 = ((int32_t)il2cpp_codegen_add((int32_t)L_13, (int32_t)1));
+		RuntimeObject * L_15 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_14);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, L_15, /*hidden argument*/NULL);
 	}
 
-IL_0068:
+IL_009a:
 	{
 		// timesHonWritten++;
-		int32_t L_11 = __this->get_timesHonWritten_9();
-		__this->set_timesHonWritten_9(((int32_t)il2cpp_codegen_add((int32_t)L_11, (int32_t)1)));
+		int32_t L_16 = __this->get_timesHonWritten_9();
+		__this->set_timesHonWritten_9(((int32_t)il2cpp_codegen_add((int32_t)L_16, (int32_t)1)));
 		// if (timesHonWritten == 10)
-		int32_t L_12 = __this->get_timesHonWritten_9();
-		if ((!(((uint32_t)L_12) == ((uint32_t)((int32_t)10)))))
+		int32_t L_17 = __this->get_timesHonWritten_9();
+		if ((!(((uint32_t)L_17) == ((uint32_t)((int32_t)10)))))
 		{
-			goto IL_009f;
+			goto IL_00d1;
 		}
 	}
 	{
 		// DialogueManager.ShowAlert("You have written " + timesHonWritten + " times!");
-		int32_t* L_13 = __this->get_address_of_timesHonWritten_9();
-		String_t* L_14;
-		L_14 = Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411((int32_t*)L_13, /*hidden argument*/NULL);
-		String_t* L_15;
-		L_15 = String_Concat_m89EAB4C6A96B0E5C3F87300D6BE78D386B9EFC44(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_14, _stringLiteralEFA8386FE947882F9B45A0189D7156FC44D8E918, /*hidden argument*/NULL);
+		int32_t* L_18 = __this->get_address_of_timesHonWritten_9();
+		String_t* L_19;
+		L_19 = Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411((int32_t*)L_18, /*hidden argument*/NULL);
+		String_t* L_20;
+		L_20 = String_Concat_m89EAB4C6A96B0E5C3F87300D6BE78D386B9EFC44(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_19, _stringLiteralEFA8386FE947882F9B45A0189D7156FC44D8E918, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(DialogueManager_tF108E2158D24D5420D4E228EE86D4DBB57F82559_il2cpp_TypeInfo_var);
-		DialogueManager_ShowAlert_mFC0BA189182873DAE31D79C56E0597482C54D48F(L_15, /*hidden argument*/NULL);
+		DialogueManager_ShowAlert_mFC0BA189182873DAE31D79C56E0597482C54D48F(L_20, /*hidden argument*/NULL);
 	}
 
-IL_009f:
+IL_00d1:
 	{
-		// if (cachedResult.gesture.id == "Ichi")
-		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_16 = __this->get_cachedResult_10();
-		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_17 = L_16->get_gesture_0();
-		String_t* L_18 = L_17->get_id_4();
-		bool L_19;
-		L_19 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_18, _stringLiteral097759F39246EF86E9D27F51B360064465FC92DF, /*hidden argument*/NULL);
-		if (!L_19)
+		// if (QuestLog.GetQuestState("quest_Numbers") != QuestState.Unassigned)
+		IL2CPP_RUNTIME_CLASS_INIT(QuestLog_tCDF5B6051280AA6261E959389A1EEAD389A8D067_il2cpp_TypeInfo_var);
+		int32_t L_21;
+		L_21 = QuestLog_GetQuestState_m0EA384188A003A24A756F9F392A340BE236EE533(_stringLiteralC2D72742B0F711E1AFDDCF81A1E3918DE810133B, /*hidden argument*/NULL);
+		if ((((int32_t)L_21) == ((int32_t)1)))
 		{
-			goto IL_00da;
+			goto IL_067f;
 		}
 	}
 	{
-		// Debug.Log("You have written " + cachedResult.gesture.id);
-		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_20 = __this->get_cachedResult_10();
-		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_21 = L_20->get_gesture_0();
-		String_t* L_22 = L_21->get_id_4();
-		String_t* L_23;
-		L_23 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_22, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_23, /*hidden argument*/NULL);
-	}
-
-IL_00da:
-	{
-		// if (cachedResult.gesture.id == "Ni")
-		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_24 = __this->get_cachedResult_10();
-		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_25 = L_24->get_gesture_0();
-		String_t* L_26 = L_25->get_id_4();
-		bool L_27;
-		L_27 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_26, _stringLiteralC06692646BD9BBF17F4757969BD8E9928489A89F, /*hidden argument*/NULL);
-		if (!L_27)
+		// if (cachedResult.gesture.id == "Ichi")
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_22 = __this->get_cachedResult_10();
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_23 = L_22->get_gesture_0();
+		String_t* L_24 = L_23->get_id_4();
+		bool L_25;
+		L_25 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_24, _stringLiteral097759F39246EF86E9D27F51B360064465FC92DF, /*hidden argument*/NULL);
+		if (!L_25)
 		{
-			goto IL_0115;
+			goto IL_016f;
+		}
+	}
+	{
+		// bool LearnedIchi = DialogueLua.GetVariable("wroteIchi").asBool;
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_26;
+		L_26 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteral89AED6B73C969154E1B8EBF447CC0EF6FF249757, /*hidden argument*/NULL);
+		V_1 = L_26;
+		bool L_27;
+		L_27 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		// if (LearnedIchi == false)
+		if (L_27)
+		{
+			goto IL_016f;
 		}
 	}
 	{
@@ -17257,201 +17685,692 @@ IL_00da:
 		L_31 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_30, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_31, /*hidden argument*/NULL);
+		// DialogueLua.SetVariable("wroteIchi", true);
+		bool L_32 = ((bool)1);
+		RuntimeObject * L_33 = Box(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var, &L_32);
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteral89AED6B73C969154E1B8EBF447CC0EF6FF249757, L_33, /*hidden argument*/NULL);
+		// DialogueManager.ShowAlert("Congratulation! You have learned the Kanji Ichi. That means 1.");
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueManager_tF108E2158D24D5420D4E228EE86D4DBB57F82559_il2cpp_TypeInfo_var);
+		DialogueManager_ShowAlert_mFC0BA189182873DAE31D79C56E0597482C54D48F(_stringLiteral4A79A0927188304FAC30F1AA68F63CF8AB52F484, /*hidden argument*/NULL);
+		// int kanjisFound = DialogueLua.GetVariable("KanjisFound").asInt;
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_34;
+		L_34 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, /*hidden argument*/NULL);
+		V_1 = L_34;
+		int32_t L_35;
+		L_35 = Result_get_asInt_mAAE38484F147DFC16D8BB4D8B329F52FBFCB7C73((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		V_3 = L_35;
+		// DialogueLua.SetVariable("KanjisFound", kanjisFound + 1);
+		int32_t L_36 = V_3;
+		int32_t L_37 = ((int32_t)il2cpp_codegen_add((int32_t)L_36, (int32_t)1));
+		RuntimeObject * L_38 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_37);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, L_38, /*hidden argument*/NULL);
 	}
 
-IL_0115:
+IL_016f:
+	{
+		// if (cachedResult.gesture.id == "Ni")
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_39 = __this->get_cachedResult_10();
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_40 = L_39->get_gesture_0();
+		String_t* L_41 = L_40->get_id_4();
+		bool L_42;
+		L_42 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_41, _stringLiteralC06692646BD9BBF17F4757969BD8E9928489A89F, /*hidden argument*/NULL);
+		if (!L_42)
+		{
+			goto IL_01ff;
+		}
+	}
+	{
+		// bool LearnedNi = DialogueLua.GetVariable("wroteNi").asBool;
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_43;
+		L_43 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteralA4043852E1F293EE044001107539705FD89F4E1A, /*hidden argument*/NULL);
+		V_1 = L_43;
+		bool L_44;
+		L_44 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		// if (LearnedNi == false)
+		if (L_44)
+		{
+			goto IL_01ff;
+		}
+	}
+	{
+		// Debug.Log("You have written " + cachedResult.gesture.id);
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_45 = __this->get_cachedResult_10();
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_46 = L_45->get_gesture_0();
+		String_t* L_47 = L_46->get_id_4();
+		String_t* L_48;
+		L_48 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_47, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_48, /*hidden argument*/NULL);
+		// DialogueLua.SetVariable("wroteNi", true);
+		bool L_49 = ((bool)1);
+		RuntimeObject * L_50 = Box(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var, &L_49);
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteralA4043852E1F293EE044001107539705FD89F4E1A, L_50, /*hidden argument*/NULL);
+		// DialogueManager.ShowAlert("Congratulation! You have learned the Kanji Ni. That means 2.");
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueManager_tF108E2158D24D5420D4E228EE86D4DBB57F82559_il2cpp_TypeInfo_var);
+		DialogueManager_ShowAlert_mFC0BA189182873DAE31D79C56E0597482C54D48F(_stringLiteral6F1169CDB8666A873CEC0240954E71CDAE158816, /*hidden argument*/NULL);
+		// int kanjisFound = DialogueLua.GetVariable("KanjisFound").asInt;
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_51;
+		L_51 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, /*hidden argument*/NULL);
+		V_1 = L_51;
+		int32_t L_52;
+		L_52 = Result_get_asInt_mAAE38484F147DFC16D8BB4D8B329F52FBFCB7C73((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		V_4 = L_52;
+		// DialogueLua.SetVariable("KanjisFound", kanjisFound + 1);
+		int32_t L_53 = V_4;
+		int32_t L_54 = ((int32_t)il2cpp_codegen_add((int32_t)L_53, (int32_t)1));
+		RuntimeObject * L_55 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_54);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, L_55, /*hidden argument*/NULL);
+	}
+
+IL_01ff:
 	{
 		// if (cachedResult.gesture.id == "San")
-		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_32 = __this->get_cachedResult_10();
-		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_33 = L_32->get_gesture_0();
-		String_t* L_34 = L_33->get_id_4();
-		bool L_35;
-		L_35 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_34, _stringLiteralFAEFEE0F49D5A3A7657CB9758A7A35957B4FA17D, /*hidden argument*/NULL);
-		if (!L_35)
-		{
-			goto IL_0150;
-		}
-	}
-	{
-		// Debug.Log("You have written " + cachedResult.gesture.id);
-		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_36 = __this->get_cachedResult_10();
-		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_37 = L_36->get_gesture_0();
-		String_t* L_38 = L_37->get_id_4();
-		String_t* L_39;
-		L_39 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_38, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_39, /*hidden argument*/NULL);
-	}
-
-IL_0150:
-	{
-		// if (cachedResult.gesture.id == "Yon")
-		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_40 = __this->get_cachedResult_10();
-		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_41 = L_40->get_gesture_0();
-		String_t* L_42 = L_41->get_id_4();
-		bool L_43;
-		L_43 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_42, _stringLiteral549EB7BE5EA14CBA2354D06F11934AE475D20A4B, /*hidden argument*/NULL);
-		if (!L_43)
-		{
-			goto IL_018b;
-		}
-	}
-	{
-		// Debug.Log("You have written " + cachedResult.gesture.id);
-		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_44 = __this->get_cachedResult_10();
-		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_45 = L_44->get_gesture_0();
-		String_t* L_46 = L_45->get_id_4();
-		String_t* L_47;
-		L_47 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_46, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_47, /*hidden argument*/NULL);
-	}
-
-IL_018b:
-	{
-		// if (cachedResult.gesture.id == "Go")
-		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_48 = __this->get_cachedResult_10();
-		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_49 = L_48->get_gesture_0();
-		String_t* L_50 = L_49->get_id_4();
-		bool L_51;
-		L_51 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_50, _stringLiteral2187256911BB65024D0B2089292DB27475101EAD, /*hidden argument*/NULL);
-		if (!L_51)
-		{
-			goto IL_01c6;
-		}
-	}
-	{
-		// Debug.Log("You have written " + cachedResult.gesture.id);
-		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_52 = __this->get_cachedResult_10();
-		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_53 = L_52->get_gesture_0();
-		String_t* L_54 = L_53->get_id_4();
-		String_t* L_55;
-		L_55 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_54, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_55, /*hidden argument*/NULL);
-	}
-
-IL_01c6:
-	{
-		// if (cachedResult.gesture.id == "Roku")
 		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_56 = __this->get_cachedResult_10();
 		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_57 = L_56->get_gesture_0();
 		String_t* L_58 = L_57->get_id_4();
 		bool L_59;
-		L_59 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_58, _stringLiteralF8BF7D52E3B65314D0391ED69341B8536044187D, /*hidden argument*/NULL);
+		L_59 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_58, _stringLiteralFAEFEE0F49D5A3A7657CB9758A7A35957B4FA17D, /*hidden argument*/NULL);
 		if (!L_59)
 		{
-			goto IL_0201;
+			goto IL_028f;
+		}
+	}
+	{
+		// bool LearnedSan = DialogueLua.GetVariable("wroteSan").asBool;
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_60;
+		L_60 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteral8EC51B4AA40C70C3ADC207B4A5BE4AAA3A079B5F, /*hidden argument*/NULL);
+		V_1 = L_60;
+		bool L_61;
+		L_61 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		// if (LearnedSan == false)
+		if (L_61)
+		{
+			goto IL_028f;
 		}
 	}
 	{
 		// Debug.Log("You have written " + cachedResult.gesture.id);
-		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_60 = __this->get_cachedResult_10();
-		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_61 = L_60->get_gesture_0();
-		String_t* L_62 = L_61->get_id_4();
-		String_t* L_63;
-		L_63 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_62, /*hidden argument*/NULL);
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_62 = __this->get_cachedResult_10();
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_63 = L_62->get_gesture_0();
+		String_t* L_64 = L_63->get_id_4();
+		String_t* L_65;
+		L_65 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_64, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_63, /*hidden argument*/NULL);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_65, /*hidden argument*/NULL);
+		// DialogueLua.SetVariable("wroteSan", true);
+		bool L_66 = ((bool)1);
+		RuntimeObject * L_67 = Box(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var, &L_66);
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteral8EC51B4AA40C70C3ADC207B4A5BE4AAA3A079B5F, L_67, /*hidden argument*/NULL);
+		// DialogueManager.ShowAlert("Congratulation! You have learned the Kanji San. That means 3.");
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueManager_tF108E2158D24D5420D4E228EE86D4DBB57F82559_il2cpp_TypeInfo_var);
+		DialogueManager_ShowAlert_mFC0BA189182873DAE31D79C56E0597482C54D48F(_stringLiteral24C100ABE41528BD6964047F544F1525273EF4F4, /*hidden argument*/NULL);
+		// int kanjisFound = DialogueLua.GetVariable("KanjisFound").asInt;
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_68;
+		L_68 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, /*hidden argument*/NULL);
+		V_1 = L_68;
+		int32_t L_69;
+		L_69 = Result_get_asInt_mAAE38484F147DFC16D8BB4D8B329F52FBFCB7C73((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		V_5 = L_69;
+		// DialogueLua.SetVariable("KanjisFound", kanjisFound + 1);
+		int32_t L_70 = V_5;
+		int32_t L_71 = ((int32_t)il2cpp_codegen_add((int32_t)L_70, (int32_t)1));
+		RuntimeObject * L_72 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_71);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, L_72, /*hidden argument*/NULL);
 	}
 
-IL_0201:
+IL_028f:
+	{
+		// if (cachedResult.gesture.id == "Yon")
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_73 = __this->get_cachedResult_10();
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_74 = L_73->get_gesture_0();
+		String_t* L_75 = L_74->get_id_4();
+		bool L_76;
+		L_76 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_75, _stringLiteral549EB7BE5EA14CBA2354D06F11934AE475D20A4B, /*hidden argument*/NULL);
+		if (!L_76)
+		{
+			goto IL_031f;
+		}
+	}
+	{
+		// bool LearnedYon = DialogueLua.GetVariable("wroteYon").asBool;
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_77;
+		L_77 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteralCB21BE61B6B7B6CBB2C904537C60C314C0CD7B32, /*hidden argument*/NULL);
+		V_1 = L_77;
+		bool L_78;
+		L_78 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		// if (LearnedYon == false)
+		if (L_78)
+		{
+			goto IL_031f;
+		}
+	}
+	{
+		// Debug.Log("You have written " + cachedResult.gesture.id);
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_79 = __this->get_cachedResult_10();
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_80 = L_79->get_gesture_0();
+		String_t* L_81 = L_80->get_id_4();
+		String_t* L_82;
+		L_82 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_81, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_82, /*hidden argument*/NULL);
+		// DialogueLua.SetVariable("wroteYon", true);
+		bool L_83 = ((bool)1);
+		RuntimeObject * L_84 = Box(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var, &L_83);
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteralCB21BE61B6B7B6CBB2C904537C60C314C0CD7B32, L_84, /*hidden argument*/NULL);
+		// DialogueManager.ShowAlert("Congratulation! You have learned the Kanji Yon. That means 4.");
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueManager_tF108E2158D24D5420D4E228EE86D4DBB57F82559_il2cpp_TypeInfo_var);
+		DialogueManager_ShowAlert_mFC0BA189182873DAE31D79C56E0597482C54D48F(_stringLiteral78B906A4C6882582353274D3F6311E1DE9EB3601, /*hidden argument*/NULL);
+		// int kanjisFound = DialogueLua.GetVariable("KanjisFound").asInt;
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_85;
+		L_85 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, /*hidden argument*/NULL);
+		V_1 = L_85;
+		int32_t L_86;
+		L_86 = Result_get_asInt_mAAE38484F147DFC16D8BB4D8B329F52FBFCB7C73((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		V_6 = L_86;
+		// DialogueLua.SetVariable("KanjisFound", kanjisFound + 1);
+		int32_t L_87 = V_6;
+		int32_t L_88 = ((int32_t)il2cpp_codegen_add((int32_t)L_87, (int32_t)1));
+		RuntimeObject * L_89 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_88);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, L_89, /*hidden argument*/NULL);
+	}
+
+IL_031f:
+	{
+		// if (cachedResult.gesture.id == "Go")
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_90 = __this->get_cachedResult_10();
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_91 = L_90->get_gesture_0();
+		String_t* L_92 = L_91->get_id_4();
+		bool L_93;
+		L_93 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_92, _stringLiteral2187256911BB65024D0B2089292DB27475101EAD, /*hidden argument*/NULL);
+		if (!L_93)
+		{
+			goto IL_03af;
+		}
+	}
+	{
+		// bool LearnedGo = DialogueLua.GetVariable("wroteGo").asBool;
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_94;
+		L_94 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteral9226D294BEC98BD42CC5414ED7E661ECC3E08EB8, /*hidden argument*/NULL);
+		V_1 = L_94;
+		bool L_95;
+		L_95 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		// if (LearnedGo == false)
+		if (L_95)
+		{
+			goto IL_03af;
+		}
+	}
+	{
+		// Debug.Log("You have written " + cachedResult.gesture.id);
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_96 = __this->get_cachedResult_10();
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_97 = L_96->get_gesture_0();
+		String_t* L_98 = L_97->get_id_4();
+		String_t* L_99;
+		L_99 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_98, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_99, /*hidden argument*/NULL);
+		// DialogueLua.SetVariable("wroteGo", true);
+		bool L_100 = ((bool)1);
+		RuntimeObject * L_101 = Box(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var, &L_100);
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteral9226D294BEC98BD42CC5414ED7E661ECC3E08EB8, L_101, /*hidden argument*/NULL);
+		// DialogueManager.ShowAlert("Congratulation! You have learned the Kanji Go. That means 5.");
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueManager_tF108E2158D24D5420D4E228EE86D4DBB57F82559_il2cpp_TypeInfo_var);
+		DialogueManager_ShowAlert_mFC0BA189182873DAE31D79C56E0597482C54D48F(_stringLiteralDDB18591422ED5C5DFBF9339BA918EE13C3C661A, /*hidden argument*/NULL);
+		// int kanjisFound = DialogueLua.GetVariable("KanjisFound").asInt;
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_102;
+		L_102 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, /*hidden argument*/NULL);
+		V_1 = L_102;
+		int32_t L_103;
+		L_103 = Result_get_asInt_mAAE38484F147DFC16D8BB4D8B329F52FBFCB7C73((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		V_7 = L_103;
+		// DialogueLua.SetVariable("KanjisFound", kanjisFound + 1);
+		int32_t L_104 = V_7;
+		int32_t L_105 = ((int32_t)il2cpp_codegen_add((int32_t)L_104, (int32_t)1));
+		RuntimeObject * L_106 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_105);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, L_106, /*hidden argument*/NULL);
+	}
+
+IL_03af:
+	{
+		// if (cachedResult.gesture.id == "Roku")
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_107 = __this->get_cachedResult_10();
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_108 = L_107->get_gesture_0();
+		String_t* L_109 = L_108->get_id_4();
+		bool L_110;
+		L_110 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_109, _stringLiteralF8BF7D52E3B65314D0391ED69341B8536044187D, /*hidden argument*/NULL);
+		if (!L_110)
+		{
+			goto IL_043f;
+		}
+	}
+	{
+		// bool LearnedRoku = DialogueLua.GetVariable("wroteRoku").asBool;
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_111;
+		L_111 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteralF4DF70068D5402587C5B2EB4C2A89F59AD9797F8, /*hidden argument*/NULL);
+		V_1 = L_111;
+		bool L_112;
+		L_112 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		// if (LearnedRoku == false)
+		if (L_112)
+		{
+			goto IL_043f;
+		}
+	}
+	{
+		// Debug.Log("You have written " + cachedResult.gesture.id);
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_113 = __this->get_cachedResult_10();
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_114 = L_113->get_gesture_0();
+		String_t* L_115 = L_114->get_id_4();
+		String_t* L_116;
+		L_116 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_115, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_116, /*hidden argument*/NULL);
+		// DialogueLua.SetVariable("wroteRoku", true);
+		bool L_117 = ((bool)1);
+		RuntimeObject * L_118 = Box(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var, &L_117);
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteralF4DF70068D5402587C5B2EB4C2A89F59AD9797F8, L_118, /*hidden argument*/NULL);
+		// DialogueManager.ShowAlert("Congratulation! You have learned the Kanji Roku. That means 6.");
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueManager_tF108E2158D24D5420D4E228EE86D4DBB57F82559_il2cpp_TypeInfo_var);
+		DialogueManager_ShowAlert_mFC0BA189182873DAE31D79C56E0597482C54D48F(_stringLiteral9743B200E14516E31A9740F849D22A04F219C2E6, /*hidden argument*/NULL);
+		// int kanjisFound = DialogueLua.GetVariable("KanjisFound").asInt;
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_119;
+		L_119 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, /*hidden argument*/NULL);
+		V_1 = L_119;
+		int32_t L_120;
+		L_120 = Result_get_asInt_mAAE38484F147DFC16D8BB4D8B329F52FBFCB7C73((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		V_8 = L_120;
+		// DialogueLua.SetVariable("KanjisFound", kanjisFound + 1);
+		int32_t L_121 = V_8;
+		int32_t L_122 = ((int32_t)il2cpp_codegen_add((int32_t)L_121, (int32_t)1));
+		RuntimeObject * L_123 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_122);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, L_123, /*hidden argument*/NULL);
+	}
+
+IL_043f:
 	{
 		// if (cachedResult.gesture.id == "Nana")
-		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_64 = __this->get_cachedResult_10();
-		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_65 = L_64->get_gesture_0();
-		String_t* L_66 = L_65->get_id_4();
-		bool L_67;
-		L_67 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_66, _stringLiteral788B7C50013DEE4927B3BCA79FDBCD3BFBFCDBBE, /*hidden argument*/NULL);
-		if (!L_67)
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_124 = __this->get_cachedResult_10();
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_125 = L_124->get_gesture_0();
+		String_t* L_126 = L_125->get_id_4();
+		bool L_127;
+		L_127 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_126, _stringLiteral788B7C50013DEE4927B3BCA79FDBCD3BFBFCDBBE, /*hidden argument*/NULL);
+		if (!L_127)
 		{
-			goto IL_023c;
+			goto IL_04cf;
+		}
+	}
+	{
+		// bool LearnedNana = DialogueLua.GetVariable("wroteNana").asBool;
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_128;
+		L_128 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteral62A0AA2F86C287F8D8B609A15B3DAD182DDBAFE8, /*hidden argument*/NULL);
+		V_1 = L_128;
+		bool L_129;
+		L_129 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		// if (LearnedNana == false)
+		if (L_129)
+		{
+			goto IL_04cf;
 		}
 	}
 	{
 		// Debug.Log("You have written " + cachedResult.gesture.id);
-		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_68 = __this->get_cachedResult_10();
-		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_69 = L_68->get_gesture_0();
-		String_t* L_70 = L_69->get_id_4();
-		String_t* L_71;
-		L_71 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_70, /*hidden argument*/NULL);
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_130 = __this->get_cachedResult_10();
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_131 = L_130->get_gesture_0();
+		String_t* L_132 = L_131->get_id_4();
+		String_t* L_133;
+		L_133 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_132, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_71, /*hidden argument*/NULL);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_133, /*hidden argument*/NULL);
+		// DialogueLua.SetVariable("wroteNana", true);
+		bool L_134 = ((bool)1);
+		RuntimeObject * L_135 = Box(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var, &L_134);
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteral62A0AA2F86C287F8D8B609A15B3DAD182DDBAFE8, L_135, /*hidden argument*/NULL);
+		// DialogueManager.ShowAlert("Congratulation! You have learned the Kanji Nana. That means 7.");
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueManager_tF108E2158D24D5420D4E228EE86D4DBB57F82559_il2cpp_TypeInfo_var);
+		DialogueManager_ShowAlert_mFC0BA189182873DAE31D79C56E0597482C54D48F(_stringLiteral4174006F0F90D92595D41332303198B9D20C44E8, /*hidden argument*/NULL);
+		// int kanjisFound = DialogueLua.GetVariable("KanjisFound").asInt;
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_136;
+		L_136 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, /*hidden argument*/NULL);
+		V_1 = L_136;
+		int32_t L_137;
+		L_137 = Result_get_asInt_mAAE38484F147DFC16D8BB4D8B329F52FBFCB7C73((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		V_9 = L_137;
+		// DialogueLua.SetVariable("KanjisFound", kanjisFound + 1);
+		int32_t L_138 = V_9;
+		int32_t L_139 = ((int32_t)il2cpp_codegen_add((int32_t)L_138, (int32_t)1));
+		RuntimeObject * L_140 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_139);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, L_140, /*hidden argument*/NULL);
 	}
 
-IL_023c:
+IL_04cf:
 	{
 		// if (cachedResult.gesture.id == "Hachi")
-		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_72 = __this->get_cachedResult_10();
-		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_73 = L_72->get_gesture_0();
-		String_t* L_74 = L_73->get_id_4();
-		bool L_75;
-		L_75 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_74, _stringLiteral98C5356D72A9E7A16EA64C530031DCCA118F1EF0, /*hidden argument*/NULL);
-		if (!L_75)
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_141 = __this->get_cachedResult_10();
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_142 = L_141->get_gesture_0();
+		String_t* L_143 = L_142->get_id_4();
+		bool L_144;
+		L_144 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_143, _stringLiteral98C5356D72A9E7A16EA64C530031DCCA118F1EF0, /*hidden argument*/NULL);
+		if (!L_144)
 		{
-			goto IL_0277;
+			goto IL_055f;
+		}
+	}
+	{
+		// bool LearnedHachi = DialogueLua.GetVariable("wroteHachi").asBool;
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_145;
+		L_145 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteral13B7B067733C9DE4BA47F52C6B4BE81BF920A98C, /*hidden argument*/NULL);
+		V_1 = L_145;
+		bool L_146;
+		L_146 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		// if (LearnedHachi == false)
+		if (L_146)
+		{
+			goto IL_055f;
 		}
 	}
 	{
 		// Debug.Log("You have written " + cachedResult.gesture.id);
-		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_76 = __this->get_cachedResult_10();
-		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_77 = L_76->get_gesture_0();
-		String_t* L_78 = L_77->get_id_4();
-		String_t* L_79;
-		L_79 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_78, /*hidden argument*/NULL);
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_147 = __this->get_cachedResult_10();
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_148 = L_147->get_gesture_0();
+		String_t* L_149 = L_148->get_id_4();
+		String_t* L_150;
+		L_150 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_149, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_79, /*hidden argument*/NULL);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_150, /*hidden argument*/NULL);
+		// DialogueLua.SetVariable("wroteHachi", true);
+		bool L_151 = ((bool)1);
+		RuntimeObject * L_152 = Box(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var, &L_151);
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteral13B7B067733C9DE4BA47F52C6B4BE81BF920A98C, L_152, /*hidden argument*/NULL);
+		// DialogueManager.ShowAlert("Congratulation! You have learned the Kanji Hachi. That means 8.");
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueManager_tF108E2158D24D5420D4E228EE86D4DBB57F82559_il2cpp_TypeInfo_var);
+		DialogueManager_ShowAlert_mFC0BA189182873DAE31D79C56E0597482C54D48F(_stringLiteral43AF242E12D9005A1D020435188BA0E2BA48F826, /*hidden argument*/NULL);
+		// int kanjisFound = DialogueLua.GetVariable("KanjisFound").asInt;
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_153;
+		L_153 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, /*hidden argument*/NULL);
+		V_1 = L_153;
+		int32_t L_154;
+		L_154 = Result_get_asInt_mAAE38484F147DFC16D8BB4D8B329F52FBFCB7C73((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		V_10 = L_154;
+		// DialogueLua.SetVariable("KanjisFound", kanjisFound + 1);
+		int32_t L_155 = V_10;
+		int32_t L_156 = ((int32_t)il2cpp_codegen_add((int32_t)L_155, (int32_t)1));
+		RuntimeObject * L_157 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_156);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, L_157, /*hidden argument*/NULL);
 	}
 
-IL_0277:
+IL_055f:
 	{
 		// if (cachedResult.gesture.id == "Kyuu")
-		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_80 = __this->get_cachedResult_10();
-		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_81 = L_80->get_gesture_0();
-		String_t* L_82 = L_81->get_id_4();
-		bool L_83;
-		L_83 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_82, _stringLiteralF783F80E3DFF8402E67C7580F14FFC4E93E8F822, /*hidden argument*/NULL);
-		if (!L_83)
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_158 = __this->get_cachedResult_10();
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_159 = L_158->get_gesture_0();
+		String_t* L_160 = L_159->get_id_4();
+		bool L_161;
+		L_161 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_160, _stringLiteralF783F80E3DFF8402E67C7580F14FFC4E93E8F822, /*hidden argument*/NULL);
+		if (!L_161)
 		{
-			goto IL_02b2;
+			goto IL_05ef;
+		}
+	}
+	{
+		// bool LearnedKyuu = DialogueLua.GetVariable("wroteKyuu").asBool;
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_162;
+		L_162 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteral6551C9CBD52BB4D4338244B385BD512840B8B0FE, /*hidden argument*/NULL);
+		V_1 = L_162;
+		bool L_163;
+		L_163 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		// if (LearnedKyuu == false)
+		if (L_163)
+		{
+			goto IL_05ef;
 		}
 	}
 	{
 		// Debug.Log("You have written " + cachedResult.gesture.id);
-		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_84 = __this->get_cachedResult_10();
-		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_85 = L_84->get_gesture_0();
-		String_t* L_86 = L_85->get_id_4();
-		String_t* L_87;
-		L_87 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_86, /*hidden argument*/NULL);
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_164 = __this->get_cachedResult_10();
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_165 = L_164->get_gesture_0();
+		String_t* L_166 = L_165->get_id_4();
+		String_t* L_167;
+		L_167 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_166, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_87, /*hidden argument*/NULL);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_167, /*hidden argument*/NULL);
+		// DialogueLua.SetVariable("wroteKyuu", true);
+		bool L_168 = ((bool)1);
+		RuntimeObject * L_169 = Box(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var, &L_168);
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteral6551C9CBD52BB4D4338244B385BD512840B8B0FE, L_169, /*hidden argument*/NULL);
+		// DialogueManager.ShowAlert("Congratulation! You have learned the Kanji Kyuu. That means 9.");
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueManager_tF108E2158D24D5420D4E228EE86D4DBB57F82559_il2cpp_TypeInfo_var);
+		DialogueManager_ShowAlert_mFC0BA189182873DAE31D79C56E0597482C54D48F(_stringLiteral09D3D4DD84B2BDA2566871186B28A0315DB8655F, /*hidden argument*/NULL);
+		// int kanjisFound = DialogueLua.GetVariable("KanjisFound").asInt;
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_170;
+		L_170 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, /*hidden argument*/NULL);
+		V_1 = L_170;
+		int32_t L_171;
+		L_171 = Result_get_asInt_mAAE38484F147DFC16D8BB4D8B329F52FBFCB7C73((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		V_11 = L_171;
+		// DialogueLua.SetVariable("KanjisFound", kanjisFound + 1);
+		int32_t L_172 = V_11;
+		int32_t L_173 = ((int32_t)il2cpp_codegen_add((int32_t)L_172, (int32_t)1));
+		RuntimeObject * L_174 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_173);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, L_174, /*hidden argument*/NULL);
 	}
 
-IL_02b2:
+IL_05ef:
 	{
 		// if (cachedResult.gesture.id == "Djuu")
-		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_88 = __this->get_cachedResult_10();
-		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_89 = L_88->get_gesture_0();
-		String_t* L_90 = L_89->get_id_4();
-		bool L_91;
-		L_91 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_90, _stringLiteral674275389281D614625B096DC89BAD65EBF73073, /*hidden argument*/NULL);
-		if (!L_91)
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_175 = __this->get_cachedResult_10();
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_176 = L_175->get_gesture_0();
+		String_t* L_177 = L_176->get_id_4();
+		bool L_178;
+		L_178 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_177, _stringLiteral674275389281D614625B096DC89BAD65EBF73073, /*hidden argument*/NULL);
+		if (!L_178)
 		{
-			goto IL_02ed;
+			goto IL_067f;
+		}
+	}
+	{
+		// bool LearnedDjuu = DialogueLua.GetVariable("wroteDjuu").asBool;
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_179;
+		L_179 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteral1C893EEA6EC24D44076A4BEC82CFEA630E7B64C4, /*hidden argument*/NULL);
+		V_1 = L_179;
+		bool L_180;
+		L_180 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		// if (LearnedDjuu == false)
+		if (L_180)
+		{
+			goto IL_067f;
 		}
 	}
 	{
 		// Debug.Log("You have written " + cachedResult.gesture.id);
-		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_92 = __this->get_cachedResult_10();
-		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_93 = L_92->get_gesture_0();
-		String_t* L_94 = L_93->get_id_4();
-		String_t* L_95;
-		L_95 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_94, /*hidden argument*/NULL);
+		RecognitionResult_tFB670E85CBC8C7B8C05A283E6D1159CEA1722EE9 * L_181 = __this->get_cachedResult_10();
+		GesturePattern_tC8E26D0DB2351442C9E80819E1A534EAC7CE0749 * L_182 = L_181->get_gesture_0();
+		String_t* L_183 = L_182->get_id_4();
+		String_t* L_184;
+		L_184 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral7EDCA1E596323C6840CFA123487DF3CEDBF109F7, L_183, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_95, /*hidden argument*/NULL);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_184, /*hidden argument*/NULL);
+		// DialogueLua.SetVariable("wroteDjuu", true);
+		bool L_185 = ((bool)1);
+		RuntimeObject * L_186 = Box(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var, &L_185);
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteral1C893EEA6EC24D44076A4BEC82CFEA630E7B64C4, L_186, /*hidden argument*/NULL);
+		// DialogueManager.ShowAlert("Congratulation! You have learned the Kanji Djuu. That means 10.");
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueManager_tF108E2158D24D5420D4E228EE86D4DBB57F82559_il2cpp_TypeInfo_var);
+		DialogueManager_ShowAlert_mFC0BA189182873DAE31D79C56E0597482C54D48F(_stringLiteralF0FAADF392931470FE2B66DCAF34E787E3D05589, /*hidden argument*/NULL);
+		// int kanjisFound = DialogueLua.GetVariable("KanjisFound").asInt;
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_187;
+		L_187 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, /*hidden argument*/NULL);
+		V_1 = L_187;
+		int32_t L_188;
+		L_188 = Result_get_asInt_mAAE38484F147DFC16D8BB4D8B329F52FBFCB7C73((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		V_12 = L_188;
+		// DialogueLua.SetVariable("KanjisFound", kanjisFound + 1);
+		int32_t L_189 = V_12;
+		int32_t L_190 = ((int32_t)il2cpp_codegen_add((int32_t)L_189, (int32_t)1));
+		RuntimeObject * L_191 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_190);
+		DialogueLua_SetVariable_m00DB07B1BA5E6E23AF5CA772639EA324A140C54D(_stringLiteralA4D5C696A6747950E5ACE1A4A886D01848846152, L_191, /*hidden argument*/NULL);
 	}
 
-IL_02ed:
+IL_067f:
+	{
+		// if (DialogueLua.GetVariable("wroteIchi").asBool == true &&
+		//     DialogueLua.GetVariable("wroteNi").asBool == true &&
+		//     DialogueLua.GetVariable("wroteSan").asBool == true &&
+		//     DialogueLua.GetVariable("wroteYon").asBool == true &&
+		//     DialogueLua.GetVariable("wroteGo").asBool == true &&
+		//     DialogueLua.GetVariable("wroteRoku").asBool == true &&
+		//     DialogueLua.GetVariable("wroteNana").asBool == true &&
+		//     DialogueLua.GetVariable("wroteHachi").asBool == true &&
+		//     DialogueLua.GetVariable("wroteKyuu").asBool == true &&
+		//     DialogueLua.GetVariable("wroteDjuu").asBool == true
+		//     )
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_192;
+		L_192 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteral89AED6B73C969154E1B8EBF447CC0EF6FF249757, /*hidden argument*/NULL);
+		V_1 = L_192;
+		bool L_193;
+		L_193 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		if (!L_193)
+		{
+			goto IL_0768;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_194;
+		L_194 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteralA4043852E1F293EE044001107539705FD89F4E1A, /*hidden argument*/NULL);
+		V_1 = L_194;
+		bool L_195;
+		L_195 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		if (!L_195)
+		{
+			goto IL_0768;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_196;
+		L_196 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteral8EC51B4AA40C70C3ADC207B4A5BE4AAA3A079B5F, /*hidden argument*/NULL);
+		V_1 = L_196;
+		bool L_197;
+		L_197 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		if (!L_197)
+		{
+			goto IL_0768;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_198;
+		L_198 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteralCB21BE61B6B7B6CBB2C904537C60C314C0CD7B32, /*hidden argument*/NULL);
+		V_1 = L_198;
+		bool L_199;
+		L_199 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		if (!L_199)
+		{
+			goto IL_0768;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_200;
+		L_200 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteral9226D294BEC98BD42CC5414ED7E661ECC3E08EB8, /*hidden argument*/NULL);
+		V_1 = L_200;
+		bool L_201;
+		L_201 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		if (!L_201)
+		{
+			goto IL_0768;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_202;
+		L_202 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteralF4DF70068D5402587C5B2EB4C2A89F59AD9797F8, /*hidden argument*/NULL);
+		V_1 = L_202;
+		bool L_203;
+		L_203 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		if (!L_203)
+		{
+			goto IL_0768;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_204;
+		L_204 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteral62A0AA2F86C287F8D8B609A15B3DAD182DDBAFE8, /*hidden argument*/NULL);
+		V_1 = L_204;
+		bool L_205;
+		L_205 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		if (!L_205)
+		{
+			goto IL_0768;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_206;
+		L_206 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteral13B7B067733C9DE4BA47F52C6B4BE81BF920A98C, /*hidden argument*/NULL);
+		V_1 = L_206;
+		bool L_207;
+		L_207 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		if (!L_207)
+		{
+			goto IL_0768;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_208;
+		L_208 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteral6551C9CBD52BB4D4338244B385BD512840B8B0FE, /*hidden argument*/NULL);
+		V_1 = L_208;
+		bool L_209;
+		L_209 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		if (!L_209)
+		{
+			goto IL_0768;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueLua_tD0C005A47FCBEE0840C2855F0B6B6DCA242E594A_il2cpp_TypeInfo_var);
+		Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83  L_210;
+		L_210 = DialogueLua_GetVariable_m162BF397A3F969E102920E2D2FAD9CA443790E28(_stringLiteral1C893EEA6EC24D44076A4BEC82CFEA630E7B64C4, /*hidden argument*/NULL);
+		V_1 = L_210;
+		bool L_211;
+		L_211 = Result_get_asBool_m95510385300ED6DE8B8740308354BFFAAE5D3464((Result_t8A227B144A829515D26F54ED2A384BFD2C48AC83 *)(&V_1), /*hidden argument*/NULL);
+		if (!L_211)
+		{
+			goto IL_0768;
+		}
+	}
+	{
+		// QuestLog.SetQuestState("Quest_Numbers", QuestState.Success);
+		IL2CPP_RUNTIME_CLASS_INIT(QuestLog_tCDF5B6051280AA6261E959389A1EEAD389A8D067_il2cpp_TypeInfo_var);
+		QuestLog_SetQuestState_m357D6A51D846CB50B1303A19CED80210E6AF42DC(_stringLiteralAAAEB9BE7679DF821CF06B0741CF9B3997F3C78E, 4, /*hidden argument*/NULL);
+		// DialogueManager.ShowAlert("GG you have learned all the numbers from 1 to 10!! The quest is complete!!!");
+		IL2CPP_RUNTIME_CLASS_INIT(DialogueManager_tF108E2158D24D5420D4E228EE86D4DBB57F82559_il2cpp_TypeInfo_var);
+		DialogueManager_ShowAlert_mFC0BA189182873DAE31D79C56E0597482C54D48F(_stringLiteral2C341183EAA8F3C060A753B834FEFB904D362A18, /*hidden argument*/NULL);
+	}
+
+IL_0768:
 	{
 		// }
 		return;
@@ -17715,14 +18634,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_OnMove_m9DC41079ED0A658
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputValue_Get_TisVector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9_mFB21C5C839A2974F31F46066906360F8975F69F7_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral38023B7FA59A5FBE2C5DB380679260A92B38A940);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral926A646AB5A68B4F9CE13C5B42BF00FE91E8C2D9);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBBE5CA6CCD627817E5570E96811084295B2EDAEA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC5CB235FDF341E57B3A3E3D289810AD3382B4E8B);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD5D2875F228D651E1289522AEAAB8C492001C1BE);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE561F8C2A51C07B2DDADA39F5822AF8EA89C993C);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -17739,56 +18654,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_OnMove_m9DC41079ED0A658
 		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 * L_4 = __this->get_address_of_movementVector_10();
 		float L_5 = L_4->get_y_1();
 		__this->set_movY_6(L_5);
-		// Debug.Log("Joystick Movement Detected");
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteral38023B7FA59A5FBE2C5DB380679260A92B38A940, /*hidden argument*/NULL);
-		// Debug.Log("X value: " + movX + " - Y value: " + movY);
-		float* L_6 = __this->get_address_of_movX_5();
-		String_t* L_7;
-		L_7 = Single_ToString_m80E7ABED4F4D73F2BE19DDB80D3D92FCD8DFA010((float*)L_6, /*hidden argument*/NULL);
-		float* L_8 = __this->get_address_of_movY_6();
-		String_t* L_9;
-		L_9 = Single_ToString_m80E7ABED4F4D73F2BE19DDB80D3D92FCD8DFA010((float*)L_8, /*hidden argument*/NULL);
-		String_t* L_10;
-		L_10 = String_Concat_m37A5BF26F8F8F1892D60D727303B23FB604FEE78(_stringLiteralE561F8C2A51C07B2DDADA39F5822AF8EA89C993C, L_7, _stringLiteralBBE5CA6CCD627817E5570E96811084295B2EDAEA, L_9, /*hidden argument*/NULL);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_10, /*hidden argument*/NULL);
 		// if (movX != 0 || movY != 0)
-		float L_11 = __this->get_movX_5();
-		if ((!(((float)L_11) == ((float)(0.0f)))))
+		float L_6 = __this->get_movX_5();
+		if ((!(((float)L_6) == ((float)(0.0f)))))
 		{
-			goto IL_007c;
+			goto IL_0048;
 		}
 	}
 	{
-		float L_12 = __this->get_movY_6();
-		if ((((float)L_12) == ((float)(0.0f))))
+		float L_7 = __this->get_movY_6();
+		if ((((float)L_7) == ((float)(0.0f))))
 		{
-			goto IL_00ba;
+			goto IL_0086;
 		}
 	}
 
-IL_007c:
+IL_0048:
 	{
 		// animator.SetFloat("X", movX);
-		Animator_t9DD1D43680A61D65A3C98C6EFF559709DC9CE149 * L_13 = __this->get_animator_8();
-		float L_14 = __this->get_movX_5();
-		Animator_SetFloat_mD731F47ED44C2D629F8E1C6DB15629C3E1B992A0(L_13, _stringLiteralD5D2875F228D651E1289522AEAAB8C492001C1BE, L_14, /*hidden argument*/NULL);
+		Animator_t9DD1D43680A61D65A3C98C6EFF559709DC9CE149 * L_8 = __this->get_animator_8();
+		float L_9 = __this->get_movX_5();
+		Animator_SetFloat_mD731F47ED44C2D629F8E1C6DB15629C3E1B992A0(L_8, _stringLiteralD5D2875F228D651E1289522AEAAB8C492001C1BE, L_9, /*hidden argument*/NULL);
 		// animator.SetFloat("Y", movY);
-		Animator_t9DD1D43680A61D65A3C98C6EFF559709DC9CE149 * L_15 = __this->get_animator_8();
-		float L_16 = __this->get_movY_6();
-		Animator_SetFloat_mD731F47ED44C2D629F8E1C6DB15629C3E1B992A0(L_15, _stringLiteralC5CB235FDF341E57B3A3E3D289810AD3382B4E8B, L_16, /*hidden argument*/NULL);
+		Animator_t9DD1D43680A61D65A3C98C6EFF559709DC9CE149 * L_10 = __this->get_animator_8();
+		float L_11 = __this->get_movY_6();
+		Animator_SetFloat_mD731F47ED44C2D629F8E1C6DB15629C3E1B992A0(L_10, _stringLiteralC5CB235FDF341E57B3A3E3D289810AD3382B4E8B, L_11, /*hidden argument*/NULL);
 		// animator.SetBool("IsWalking", true);
-		Animator_t9DD1D43680A61D65A3C98C6EFF559709DC9CE149 * L_17 = __this->get_animator_8();
-		Animator_SetBool_m34E2E9785A47A3AE94E804004425C333C36CCD43(L_17, _stringLiteral926A646AB5A68B4F9CE13C5B42BF00FE91E8C2D9, (bool)1, /*hidden argument*/NULL);
+		Animator_t9DD1D43680A61D65A3C98C6EFF559709DC9CE149 * L_12 = __this->get_animator_8();
+		Animator_SetBool_m34E2E9785A47A3AE94E804004425C333C36CCD43(L_12, _stringLiteral926A646AB5A68B4F9CE13C5B42BF00FE91E8C2D9, (bool)1, /*hidden argument*/NULL);
 		// }
 		return;
 	}
 
-IL_00ba:
+IL_0086:
 	{
 		// animator.SetBool("IsWalking", false);
-		Animator_t9DD1D43680A61D65A3C98C6EFF559709DC9CE149 * L_18 = __this->get_animator_8();
-		Animator_SetBool_m34E2E9785A47A3AE94E804004425C333C36CCD43(L_18, _stringLiteral926A646AB5A68B4F9CE13C5B42BF00FE91E8C2D9, (bool)0, /*hidden argument*/NULL);
+		Animator_t9DD1D43680A61D65A3C98C6EFF559709DC9CE149 * L_13 = __this->get_animator_8();
+		Animator_SetBool_m34E2E9785A47A3AE94E804004425C333C36CCD43(L_13, _stringLiteral926A646AB5A68B4F9CE13C5B42BF00FE91E8C2D9, (bool)0, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -17814,27 +18716,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_OnInteract_m94AE28EFD28
 // System.Void PlayerController::FixedUpdate()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_FixedUpdate_m54EE3ADAA7597303B1F69849B233D1A68D880B14 (PlayerController_tDFE946D0FE1CB988FC3DC902E05737A2A62CA3D9 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5626CC06257F56D04E9A1A8016FDF19499D7F8EF);
-		s_Il2CppMethodInitialized = true;
-	}
-	Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  V_0;
-	memset((&V_0), 0, sizeof(V_0));
 	{
 		// PlayerMove();
 		PlayerController_PlayerMove_m43C108D8FED1F1B81F90EA89108BD7CCB817B08A(__this, /*hidden argument*/NULL);
-		// Debug.Log("movement vector : " + movementVector);
-		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  L_0 = __this->get_movementVector_10();
-		V_0 = L_0;
-		String_t* L_1;
-		L_1 = Vector2_ToString_mBD48EFCDB703ACCDC29E86AEB0D4D62FBA50F840((Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 *)(&V_0), /*hidden argument*/NULL);
-		String_t* L_2;
-		L_2 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral5626CC06257F56D04E9A1A8016FDF19499D7F8EF, L_1, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_2, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -17842,15 +18726,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_FixedUpdate_m54EE3ADAA7
 // System.Void PlayerController::PlayerMove()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_PlayerMove_m43C108D8FED1F1B81F90EA89108BD7CCB817B08A (PlayerController_tDFE946D0FE1CB988FC3DC902E05737A2A62CA3D9 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD527AF854D6E45D24A5A8208104EE051E9962653);
-		s_Il2CppMethodInitialized = true;
-	}
-	Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  V_0;
-	memset((&V_0), 0, sizeof(V_0));
 	{
 		// movement.Set(movX, movY);
 		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 * L_0 = __this->get_address_of_movement_9();
@@ -17868,15 +18743,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_PlayerMove_m43C108D8FED
 		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  L_8;
 		L_8 = Vector2_op_Multiply_mC7A7802352867555020A90205EBABA56EE5E36CB_inline(L_6, L_7, /*hidden argument*/NULL);
 		Rigidbody2D_set_velocity_m56B745344E78C85462843AE623BF0A40764FC2DA(L_3, L_8, /*hidden argument*/NULL);
-		// Debug.Log("Current player speed : " + movement);
-		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  L_9 = __this->get_movement_9();
-		V_0 = L_9;
-		String_t* L_10;
-		L_10 = Vector2_ToString_mBD48EFCDB703ACCDC29E86AEB0D4D62FBA50F840((Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 *)(&V_0), /*hidden argument*/NULL);
-		String_t* L_11;
-		L_11 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteralD527AF854D6E45D24A5A8208104EE051E9962653, L_10, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_11, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -23574,6 +24440,117 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UILineRenderer__cctor_mF1966A9D8DA631D93
 		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  L_32 = ((UILineRenderer_tA72B86100C1E8BA4BFBDA5BA1FBDD3A217D81F20_StaticFields*)il2cpp_codegen_static_fields_for(UILineRenderer_tA72B86100C1E8BA4BFBDA5BA1FBDD3A217D81F20_il2cpp_TypeInfo_var))->get_UV_TOP_RIGHT_42();
 		(L_31)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 )L_32);
 		((UILineRenderer_tA72B86100C1E8BA4BFBDA5BA1FBDD3A217D81F20_StaticFields*)il2cpp_codegen_static_fields_for(UILineRenderer_tA72B86100C1E8BA4BFBDA5BA1FBDD3A217D81F20_il2cpp_TypeInfo_var))->set_endUvs_46(L_31);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void VolumeControlScript::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VolumeControlScript_Start_mE085EB83FDBF66084BBE0CFE732554B37CDDF905 (VolumeControlScript_t7D9B061E82460F6531ABC37D6205918F3C59836F * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeManager_t1DD0703C1A7473D65A44439D647D7C6B0C36C8FF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8373367F76B2953994218CF04613D3B44249F5F4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBFC2910E9A6537B7B3C146EF84A50FB839384BCD);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD2B3E88A2997B3462183219496DB2B0E0F4541A0);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// music = FMODUnity.RuntimeManager.GetBus("bus:/Music");
+		IL2CPP_RUNTIME_CLASS_INIT(RuntimeManager_t1DD0703C1A7473D65A44439D647D7C6B0C36C8FF_il2cpp_TypeInfo_var);
+		Bus_tB5E25ABA15F3E5DB91A09BABE4076CF855D37520  L_0;
+		L_0 = RuntimeManager_GetBus_mD661704E5CB5D13745F09E55F1105F3B8B0AA991(_stringLiteralD2B3E88A2997B3462183219496DB2B0E0F4541A0, /*hidden argument*/NULL);
+		__this->set_music_5(L_0);
+		// SFX = FMODUnity.RuntimeManager.GetBus("bus:/SFX");
+		Bus_tB5E25ABA15F3E5DB91A09BABE4076CF855D37520  L_1;
+		L_1 = RuntimeManager_GetBus_mD661704E5CB5D13745F09E55F1105F3B8B0AA991(_stringLiteralBFC2910E9A6537B7B3C146EF84A50FB839384BCD, /*hidden argument*/NULL);
+		__this->set_SFX_6(L_1);
+		// fmodEvent = FMODUnity.RuntimeManager.CreateInstance("event:/UI/ConversationStart");
+		EventInstance_t77E43F521C3E42A51B553C95F04A518E03B7E2C8  L_2;
+		L_2 = RuntimeManager_CreateInstance_m4805089829352CB7A5CF1B056ED889CA1E17FAA7(_stringLiteral8373367F76B2953994218CF04613D3B44249F5F4, /*hidden argument*/NULL);
+		__this->set_fmodEvent_4(L_2);
+		// }
+		return;
+	}
+}
+// System.Void VolumeControlScript::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VolumeControlScript_Update_m360B0AAD7A96FB7B69FF0E3070D9DBE863C5C021 (VolumeControlScript_t7D9B061E82460F6531ABC37D6205918F3C59836F * __this, const RuntimeMethod* method)
+{
+	{
+		// music.setVolume(MusicVolume);
+		Bus_tB5E25ABA15F3E5DB91A09BABE4076CF855D37520 * L_0 = __this->get_address_of_music_5();
+		float L_1 = __this->get_MusicVolume_7();
+		int32_t L_2;
+		L_2 = Bus_setVolume_m4A14CBD2661706AB950AF60B8210181CAB1A8EB5((Bus_tB5E25ABA15F3E5DB91A09BABE4076CF855D37520 *)L_0, L_1, /*hidden argument*/NULL);
+		// SFX.setVolume(SFXVolume);
+		Bus_tB5E25ABA15F3E5DB91A09BABE4076CF855D37520 * L_3 = __this->get_address_of_SFX_6();
+		float L_4 = __this->get_SFXVolume_8();
+		int32_t L_5;
+		L_5 = Bus_setVolume_m4A14CBD2661706AB950AF60B8210181CAB1A8EB5((Bus_tB5E25ABA15F3E5DB91A09BABE4076CF855D37520 *)L_3, L_4, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void VolumeControlScript::MusicVolumeChange(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VolumeControlScript_MusicVolumeChange_mC5A1A3C8D64ADE49E2157A248A9720A38FB9F779 (VolumeControlScript_t7D9B061E82460F6531ABC37D6205918F3C59836F * __this, float ___newMusicVolume0, const RuntimeMethod* method)
+{
+	{
+		// MusicVolume = newMusicVolume;
+		float L_0 = ___newMusicVolume0;
+		__this->set_MusicVolume_7(L_0);
+		// }
+		return;
+	}
+}
+// System.Void VolumeControlScript::SFXVolumeChange(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VolumeControlScript_SFXVolumeChange_m029B44662B43098B68778548FB95D45A6767F8D4 (VolumeControlScript_t7D9B061E82460F6531ABC37D6205918F3C59836F * __this, float ___newSFXVolume0, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	{
+		// SFXVolume = newSFXVolume;
+		float L_0 = ___newSFXVolume0;
+		__this->set_SFXVolume_8(L_0);
+		// fmodEvent.getPlaybackState(out pbState);
+		EventInstance_t77E43F521C3E42A51B553C95F04A518E03B7E2C8 * L_1 = __this->get_address_of_fmodEvent_4();
+		int32_t L_2;
+		L_2 = EventInstance_getPlaybackState_mA1F9D7BB93F9A9BBA0EC2763A9476E1DE3B8A72C((EventInstance_t77E43F521C3E42A51B553C95F04A518E03B7E2C8 *)L_1, (int32_t*)(&V_0), /*hidden argument*/NULL);
+		// if (pbState != FMOD.Studio.PLAYBACK_STATE.PLAYING)
+		int32_t L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		// fmodEvent.start();
+		EventInstance_t77E43F521C3E42A51B553C95F04A518E03B7E2C8 * L_4 = __this->get_address_of_fmodEvent_4();
+		int32_t L_5;
+		L_5 = EventInstance_start_mE3EA9B9B0606815C7FB674F0CC2D6A3BBA2A9141((EventInstance_t77E43F521C3E42A51B553C95F04A518E03B7E2C8 *)L_4, /*hidden argument*/NULL);
+	}
+
+IL_0024:
+	{
+		// }
+		return;
+	}
+}
+// System.Void VolumeControlScript::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VolumeControlScript__ctor_m14BABA2BF19297F68F2258C4BE70D0F954BD7879 (VolumeControlScript_t7D9B061E82460F6531ABC37D6205918F3C59836F * __this, const RuntimeMethod* method)
+{
+	{
+		// float MusicVolume = 1.0f;
+		__this->set_MusicVolume_7((1.0f));
+		// float SFXVolume = 1.0f;
+		__this->set_SFXVolume_8((1.0f));
+		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
 		return;
 	}
 }

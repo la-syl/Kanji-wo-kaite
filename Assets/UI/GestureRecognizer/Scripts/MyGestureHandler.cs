@@ -29,17 +29,39 @@ public class MyGestureHandler : MonoBehaviour {
 		if (result != RecognitionResult.Empty) {
 			Debug.Log("Recognized!");
 			cachedResult = result;
-			textResult.text = result.gesture.id;
-			score.text = Mathf.RoundToInt(result.score.score * 100) + "%";
-
-			int oldKanjiValue = DialogueLua.GetVariable("TotalNumberOfKanjisWritten").asInt;
-			DialogueLua.SetVariable("TotalNumberOfKanjisWritten", oldKanjiValue+1);
-
-			if ((oldKanjiValue + 1) % 10 != 0) 
-			{ 
-			
+			bool KnowsKanji = DialogueLua.GetVariable("wrote" + result.gesture.id).asBool;
+			Debug.Log("Knows Kanji:" + KnowsKanji);
+			Debug.Log("wrote" + result.gesture.id);
+			if (KnowsKanji == true || QuestLog.GetQuestState("quest_" + result.gesture.id) != QuestState.Unassigned)
+			{
+				textResult.text = result.gesture.id;
+				score.text = Mathf.RoundToInt(result.score.score * 100) + "%";
+				int oldKanjiValue = DialogueLua.GetVariable("TotalNumberOfKanjisWritten").asInt;
+				DialogueLua.SetVariable("TotalNumberOfKanjisWritten", oldKanjiValue + 1);
 			}
-		} else {
+			else if (QuestLog.GetQuestState("quest_Numbers") == QuestState.Active)
+			{
+				bool LearnedResult = DialogueLua.GetVariable("wrote" + result.gesture.id).asBool;
+
+				if (LearnedResult == false)
+				{
+					textResult.text = result.gesture.id;
+					score.text = Mathf.RoundToInt(result.score.score * 100) + "%";
+					int oldKanjiValue = DialogueLua.GetVariable("TotalNumberOfKanjisWritten").asInt;
+					DialogueLua.SetVariable("TotalNumberOfKanjisWritten", oldKanjiValue + 1);
+				}
+
+
+			}
+			else
+			{
+				textResult.text = "Try again";
+				score.text = "0";
+			}
+
+		} 
+		else 
+		{
 			textResult.text = "Try again";
 			score.text = "0";
 		}
@@ -68,6 +90,10 @@ public class MyGestureHandler : MonoBehaviour {
 					int kanjisFound = DialogueLua.GetVariable("KanjisFound").asInt;
 					DialogueLua.SetVariable("KanjisFound", kanjisFound + 1);
 
+				}
+				else
+				{ 
+				
 				}
 
 				//Incrementing number of times this Kanji was written
@@ -241,6 +267,23 @@ public class MyGestureHandler : MonoBehaviour {
 				}
 				
 			}
+		}
+
+		//QuestNumberComplete
+		if (DialogueLua.GetVariable("wroteIchi").asBool == true &&
+			DialogueLua.GetVariable("wroteNi").asBool == true &&
+			DialogueLua.GetVariable("wroteSan").asBool == true &&
+			DialogueLua.GetVariable("wroteYon").asBool == true &&
+			DialogueLua.GetVariable("wroteGo").asBool == true &&
+			DialogueLua.GetVariable("wroteRoku").asBool == true &&
+			DialogueLua.GetVariable("wroteNana").asBool == true &&
+			DialogueLua.GetVariable("wroteHachi").asBool == true &&
+			DialogueLua.GetVariable("wroteKyuu").asBool == true &&
+			DialogueLua.GetVariable("wroteDjuu").asBool == true
+			) 
+		{
+			QuestLog.SetQuestState("quest_Numbers", QuestState.Success);
+			DialogueManager.ShowAlert("GG you have learned all the numbers from 1 to 10!! The quest is complete!!!");
 		}
 			
 	}

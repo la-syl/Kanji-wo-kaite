@@ -17,21 +17,21 @@ MonoBehaviour:
   gesture:
     lines:
     - points:
-      - {x: 0.1875, y: 0.8125}
-      - {x: 0.8125, y: 0.8125}
+      - {x: 0.3125, y: 0.625}
+      - {x: 0.625, y: 0.625}
       closedLine: 0
     - points:
-      - {x: 0.5, y: 0.8125}
-      - {x: 0.375, y: 0.125}
+      - {x: 0.5, y: 0.625}
+      - {x: 0.375, y: 0.3125}
       closedLine: 0
     - points:
-      - {x: 0.3125, y: 0.5}
-      - {x: 0.6875, y: 0.5}
-      - {x: 0.6875, y: 0.125}
+      - {x: 0.375, y: 0.5}
+      - {x: 0.5625, y: 0.5}
+      - {x: 0.5625, y: 0.3125}
       closedLine: 0
     - points:
-      - {x: 0.125, y: 0.125}
-      - {x: 0.875, y: 0.125}
+      - {x: 0.25, y: 0.3125}
+      - {x: 0.6875, y: 0.3125}
       closedLine: 0
   useLinesOrder: 1
   useLinesDirections: 1

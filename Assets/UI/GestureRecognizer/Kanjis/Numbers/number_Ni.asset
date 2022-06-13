@@ -17,12 +17,12 @@ MonoBehaviour:
   gesture:
     lines:
     - points:
-      - {x: 0.3125, y: 0.625}
-      - {x: 0.6875, y: 0.625}
+      - {x: 0.375, y: 0.625}
+      - {x: 0.625, y: 0.625}
       closedLine: 0
     - points:
-      - {x: 0.25, y: 0.375}
-      - {x: 0.75, y: 0.375}
+      - {x: 0.3125, y: 0.375}
+      - {x: 0.6875, y: 0.375}
       closedLine: 0
   useLinesOrder: 1
   useLinesDirections: 1

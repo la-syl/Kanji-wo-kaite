@@ -157,6 +157,60 @@ public:
 };
 
 
+// FMOD.DEBUG_FLAGS
+struct DEBUG_FLAGS_t5B534E621EFD0EA230E7BCB3D1CBEE658CB61D62 
+{
+public:
+	// System.UInt32 FMOD.DEBUG_FLAGS::value__
+	uint32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(DEBUG_FLAGS_t5B534E621EFD0EA230E7BCB3D1CBEE658CB61D62, ___value___2)); }
+	inline uint32_t get_value___2() const { return ___value___2; }
+	inline uint32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(uint32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// FMOD.RESULT
+struct RESULT_t25BE0876E69B44E7D72DC4C52217E7C5B1A82271 
+{
+public:
+	// System.Int32 FMOD.RESULT::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(RESULT_t25BE0876E69B44E7D72DC4C52217E7C5B1A82271, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// FMOD.SYSTEM_CALLBACK_TYPE
+struct SYSTEM_CALLBACK_TYPE_t34501F40D0531C7C135ABE1DADBF5ADC022879D2 
+{
+public:
+	// System.UInt32 FMOD.SYSTEM_CALLBACK_TYPE::value__
+	uint32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(SYSTEM_CALLBACK_TYPE_t34501F40D0531C7C135ABE1DADBF5ADC022879D2, ___value___2)); }
+	inline uint32_t get_value___2() const { return ___value___2; }
+	inline uint32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(uint32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // Mono.Unity.UnityTls/unitytls_x509verify_result
 struct unitytls_x509verify_result_t3CE5D0E50DA56D0A6561757039E6F1F292996B84 
 {
@@ -181,6 +235,8 @@ public:
 extern "C" int32_t CDECL ReversePInvokeWrapper_DeflateStreamNative_UnmanagedRead_m1B817101FEA9D3C28DF3C9192F70557465BDFB25(intptr_t ___buffer0, int32_t ___length1, intptr_t ___data2);
 extern "C" int32_t CDECL ReversePInvokeWrapper_DeflateStreamNative_UnmanagedWrite_m531442C0133AA29BF262DFD21F81CCBE5EA7E086(intptr_t ___buffer0, int32_t ___length1, intptr_t ___data2);
 extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_m0045E44F7E960D6B4A864D5206D4116249C09BB0(intptr_t ___arg0);
+extern "C" int32_t DEFAULT_CALL ReversePInvokeWrapper_RuntimeManager_DEBUG_CALLBACK_m6358271FCC847A20721593FB49AEA32779CB4CE5(uint32_t ___flags0, intptr_t ___filePtr1, int32_t ___line2, intptr_t ___funcPtr3, intptr_t ___messagePtr4);
+extern "C" int32_t DEFAULT_CALL ReversePInvokeWrapper_RuntimeManager_ERROR_CALLBACK_m7B9A08F82F3F50CC4EC1644B8C713F25526C2BB3(intptr_t ___system0, uint32_t ___type1, intptr_t ___commanddata12, intptr_t ___commanddata23, intptr_t ___userdata4);
 extern "C" void CDECL ReversePInvokeWrapper_UnityTlsContext_CertificateCallback_m793CC2EDD82935F29A3DEBD1F208DC56EA822E9C(void* ___userData0, unitytls_tlsctx_tA5DB674E2A83ADDD03624096501FCDD29E9DB7FA * ___ctx1, uint8_t* ___cn2, intptr_t ___cnLen3, unitytls_x509name_tC19C2F27FF70AD438A79A5F66E4C5FFA2613EDA6 * ___caList4, intptr_t ___caListLen5, unitytls_x509list_ref_tE4376B9592E1AF7E02BB0BB2CE110D8219832D4D * ___chain6, unitytls_key_ref_t7EFBA70561D0E9FD8517038EBC0CC9FCF9AE6B61 * ___key7, unitytls_errorstate_t0015D496F47B84E1D98D31D5132B27FADB38F499 * ___errorState8);
 extern "C" intptr_t CDECL ReversePInvokeWrapper_UnityTlsContext_ReadCallback_mA0BF382397D912B79B6064B58B6C7C5D97853245(void* ___userData0, uint8_t* ___buffer1, intptr_t ___bufferLen2, unitytls_errorstate_t0015D496F47B84E1D98D31D5132B27FADB38F499 * ___errorState3);
 extern "C" uint32_t CDECL ReversePInvokeWrapper_UnityTlsContext_VerifyCallback_m8C61EF3A0037483AD56A083CA47D8E4C0404961E(void* ___userData0, unitytls_x509list_ref_tE4376B9592E1AF7E02BB0BB2CE110D8219832D4D  ___chain1, unitytls_errorstate_t0015D496F47B84E1D98D31D5132B27FADB38F499 * ___errorState2);
@@ -188,11 +244,13 @@ extern "C" intptr_t CDECL ReversePInvokeWrapper_UnityTlsContext_WriteCallback_m4
 
 
 IL2CPP_EXTERN_C const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[];
-const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[7] = 
+const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[9] = 
 {
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_DeflateStreamNative_UnmanagedRead_m1B817101FEA9D3C28DF3C9192F70557465BDFB25),
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_DeflateStreamNative_UnmanagedWrite_m531442C0133AA29BF262DFD21F81CCBE5EA7E086),
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_m0045E44F7E960D6B4A864D5206D4116249C09BB0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RuntimeManager_DEBUG_CALLBACK_m6358271FCC847A20721593FB49AEA32779CB4CE5),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RuntimeManager_ERROR_CALLBACK_m7B9A08F82F3F50CC4EC1644B8C713F25526C2BB3),
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_CertificateCallback_m793CC2EDD82935F29A3DEBD1F208DC56EA822E9C),
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_ReadCallback_mA0BF382397D912B79B6064B58B6C7C5D97853245),
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UnityTlsContext_VerifyCallback_m8C61EF3A0037483AD56A083CA47D8E4C0404961E),

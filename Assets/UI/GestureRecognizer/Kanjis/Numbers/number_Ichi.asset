@@ -17,8 +17,8 @@ MonoBehaviour:
   gesture:
     lines:
     - points:
-      - {x: 0.1875, y: 0.5}
-      - {x: 0.8125, y: 0.5}
+      - {x: 0.3125, y: 0.5}
+      - {x: 0.6875, y: 0.5}
       closedLine: 0
   useLinesOrder: 1
   useLinesDirections: 1

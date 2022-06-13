@@ -13,12 +13,6 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Scenes/House_Mayor");
     }
 
-//Continue game
-    public void ContinueGame() 
-    { 
-    
-    }
-
 //Close the game
     public void EndGame()
     {
