@@ -1,8 +1,9 @@
-# Kanji-game-UOC
-The final project being made for the Multimedia Degree at the UOC.
+# Kanji-wo-kaite
 
 ====== WORK IN PROGRESS ======
 
+Kanji wo kaite is an educational game aimed at helping people with Kanji learning and practice.
+Android game.
 Unity 3D Project.
 
 Game info:
